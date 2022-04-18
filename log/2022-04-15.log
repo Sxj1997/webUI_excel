@@ -1,0 +1,98 @@
+2022-04-15 17:32:51 DEBUG: 执行sheet页：查询1
+2022-04-15 17:32:51 DEBUG: 执行步骤：打开网页
+2022-04-15 17:32:51 DEBUG: POST http://localhost:22438/session/ba98fd6427db80d3db87a2585e99ef75/url {"url": "http://www.baidu.com"}
+2022-04-15 17:32:52 DEBUG: http://localhost:22438 "POST /session/ba98fd6427db80d3db87a2585e99ef75/url HTTP/1.1" 200 14
+2022-04-15 17:32:52 DEBUG: Finished Request
+2022-04-15 17:32:52 DEBUG: 执行步骤：等待
+2022-04-15 17:32:53 DEBUG: 执行步骤：输入
+2022-04-15 17:32:53 DEBUG: POST http://localhost:22438/session/ba98fd6427db80d3db87a2585e99ef75/element {"using": "xpath", "value": "//*[@id=\"unknow\"]"}
+2022-04-15 17:32:53 DEBUG: http://localhost:22438 "POST /session/ba98fd6427db80d3db87a2585e99ef75/element HTTP/1.1" 404 1026
+2022-04-15 17:32:53 DEBUG: Finished Request
+2022-04-15 17:32:53 DEBUG: POST http://localhost:22438/session/ba98fd6427db80d3db87a2585e99ef75/element {"using": "xpath", "value": "//*[@id=\"unknow\"]"}
+2022-04-15 17:32:53 DEBUG: http://localhost:22438 "POST /session/ba98fd6427db80d3db87a2585e99ef75/element HTTP/1.1" 404 1026
+2022-04-15 17:32:53 DEBUG: Finished Request
+2022-04-15 17:32:54 DEBUG: POST http://localhost:22438/session/ba98fd6427db80d3db87a2585e99ef75/element {"using": "xpath", "value": "//*[@id=\"unknow\"]"}
+2022-04-15 17:32:54 DEBUG: http://localhost:22438 "POST /session/ba98fd6427db80d3db87a2585e99ef75/element HTTP/1.1" 404 1026
+2022-04-15 17:32:54 DEBUG: Finished Request
+2022-04-15 17:32:54 DEBUG: POST http://localhost:22438/session/ba98fd6427db80d3db87a2585e99ef75/element {"using": "xpath", "value": "//*[@id=\"unknow\"]"}
+2022-04-15 17:32:54 DEBUG: http://localhost:22438 "POST /session/ba98fd6427db80d3db87a2585e99ef75/element HTTP/1.1" 404 1026
+2022-04-15 17:32:54 DEBUG: Finished Request
+2022-04-15 17:32:55 DEBUG: POST http://localhost:22438/session/ba98fd6427db80d3db87a2585e99ef75/element {"using": "xpath", "value": "//*[@id=\"unknow\"]"}
+2022-04-15 17:32:55 DEBUG: http://localhost:22438 "POST /session/ba98fd6427db80d3db87a2585e99ef75/element HTTP/1.1" 404 1026
+2022-04-15 17:32:55 DEBUG: Finished Request
+2022-04-15 17:32:55 DEBUG: POST http://localhost:22438/session/ba98fd6427db80d3db87a2585e99ef75/element {"using": "xpath", "value": "//*[@id=\"unknow\"]"}
+2022-04-15 17:32:55 DEBUG: http://localhost:22438 "POST /session/ba98fd6427db80d3db87a2585e99ef75/element HTTP/1.1" 404 1026
+2022-04-15 17:32:55 DEBUG: Finished Request
+2022-04-15 17:32:56 DEBUG: POST http://localhost:22438/session/ba98fd6427db80d3db87a2585e99ef75/element {"using": "xpath", "value": "//*[@id=\"unknow\"]"}
+2022-04-15 17:32:56 DEBUG: http://localhost:22438 "POST /session/ba98fd6427db80d3db87a2585e99ef75/element HTTP/1.1" 404 1026
+2022-04-15 17:32:56 DEBUG: Finished Request
+2022-04-15 17:32:56 DEBUG: POST http://localhost:22438/session/ba98fd6427db80d3db87a2585e99ef75/element {"using": "xpath", "value": "//*[@id=\"unknow\"]"}
+2022-04-15 17:32:56 DEBUG: http://localhost:22438 "POST /session/ba98fd6427db80d3db87a2585e99ef75/element HTTP/1.1" 404 1026
+2022-04-15 17:32:56 DEBUG: Finished Request
+2022-04-15 17:32:57 DEBUG: POST http://localhost:22438/session/ba98fd6427db80d3db87a2585e99ef75/element {"using": "xpath", "value": "//*[@id=\"unknow\"]"}
+2022-04-15 17:32:57 DEBUG: http://localhost:22438 "POST /session/ba98fd6427db80d3db87a2585e99ef75/element HTTP/1.1" 404 1026
+2022-04-15 17:32:57 DEBUG: Finished Request
+2022-04-15 17:32:57 DEBUG: POST http://localhost:22438/session/ba98fd6427db80d3db87a2585e99ef75/element {"using": "xpath", "value": "//*[@id=\"unknow\"]"}
+2022-04-15 17:32:57 DEBUG: http://localhost:22438 "POST /session/ba98fd6427db80d3db87a2585e99ef75/element HTTP/1.1" 404 1026
+2022-04-15 17:32:57 DEBUG: Finished Request
+2022-04-15 17:32:58 DEBUG: POST http://localhost:22438/session/ba98fd6427db80d3db87a2585e99ef75/element {"using": "xpath", "value": "//*[@id=\"unknow\"]"}
+2022-04-15 17:32:58 DEBUG: http://localhost:22438 "POST /session/ba98fd6427db80d3db87a2585e99ef75/element HTTP/1.1" 404 1026
+2022-04-15 17:32:58 DEBUG: Finished Request
+2022-04-15 17:32:58 DEBUG: POST http://localhost:22438/session/ba98fd6427db80d3db87a2585e99ef75/element {"using": "xpath", "value": "//*[@id=\"unknow\"]"}
+2022-04-15 17:32:58 DEBUG: http://localhost:22438 "POST /session/ba98fd6427db80d3db87a2585e99ef75/element HTTP/1.1" 404 1026
+2022-04-15 17:32:58 DEBUG: Finished Request
+2022-04-15 17:32:59 ERROR: 执行步骤：输入 失败
+2022-04-15 17:32:59 ERROR: Message: 
+Stacktrace:
+Backtrace:
+	Ordinal0 [0x00A47413+2389011]
+	Ordinal0 [0x009D9F61+1941345]
+	Ordinal0 [0x008CC658+837208]
+	Ordinal0 [0x008F91DD+1020381]
+	Ordinal0 [0x008F949B+1021083]
+	Ordinal0 [0x00926032+1204274]
+	Ordinal0 [0x00914194+1130900]
+	Ordinal0 [0x00924302+1196802]
+	Ordinal0 [0x00913F66+1130342]
+	Ordinal0 [0x008EE546+976198]
+	Ordinal0 [0x008EF456+980054]
+	GetHandleVerifier [0x00BF9632+1727522]
+	GetHandleVerifier [0x00CABA4D+2457661]
+	GetHandleVerifier [0x00ADEB81+569713]
+	GetHandleVerifier [0x00ADDD76+566118]
+	Ordinal0 [0x009E0B2B+1968939]
+	Ordinal0 [0x009E5988+1989000]
+	Ordinal0 [0x009E5A75+1989237]
+	Ordinal0 [0x009EECB1+2026673]
+	BaseThreadInitThunk [0x7716FA29+25]
+	RtlGetAppContainerNamedObjectPath [0x77927A7E+286]
+	RtlGetAppContainerNamedObjectPath [0x77927A4E+238]
+
+2022-04-15 17:32:59 DEBUG: DELETE http://localhost:22438/session/ba98fd6427db80d3db87a2585e99ef75 {}
+2022-04-15 17:32:59 DEBUG: http://localhost:22438 "DELETE /session/ba98fd6427db80d3db87a2585e99ef75 HTTP/1.1" 200 14
+2022-04-15 17:32:59 DEBUG: Finished Request
+2022-04-15 18:06:15 DEBUG: 执行sheet页：查询1
+2022-04-15 18:06:15 DEBUG: 执行步骤：打开网页
+2022-04-15 18:06:15 DEBUG: POST http://localhost:28339/session/d9a6b2652ab7a9a1ecc81b06a0c32c5d/url {"url": "http://www.baidu.com"}
+2022-04-15 18:06:16 DEBUG: http://localhost:28339 "POST /session/d9a6b2652ab7a9a1ecc81b06a0c32c5d/url HTTP/1.1" 200 14
+2022-04-15 18:06:16 DEBUG: Finished Request
+2022-04-15 18:06:16 DEBUG: 执行步骤：等待
+2022-04-15 18:06:17 DEBUG: 执行步骤：输入
+2022-04-15 18:06:17 DEBUG: POST http://localhost:28339/session/d9a6b2652ab7a9a1ecc81b06a0c32c5d/element {"using": "xpath", "value": "//*[@id=\"kw\"]"}
+2022-04-15 18:06:17 DEBUG: http://localhost:28339 "POST /session/d9a6b2652ab7a9a1ecc81b06a0c32c5d/element HTTP/1.1" 200 88
+2022-04-15 18:06:17 DEBUG: Finished Request
+2022-04-15 18:06:17 DEBUG: POST http://localhost:28339/session/d9a6b2652ab7a9a1ecc81b06a0c32c5d/element/f4761cbc-2904-4d0a-a24c-3c668a3a9cd1/value {"text": "python", "value": ["p", "y", "t", "h", "o", "n"], "id": "f4761cbc-2904-4d0a-a24c-3c668a3a9cd1"}
+2022-04-15 18:06:17 DEBUG: http://localhost:28339 "POST /session/d9a6b2652ab7a9a1ecc81b06a0c32c5d/element/f4761cbc-2904-4d0a-a24c-3c668a3a9cd1/value HTTP/1.1" 200 14
+2022-04-15 18:06:17 DEBUG: Finished Request
+2022-04-15 18:06:17 DEBUG: 执行步骤：等待
+2022-04-15 18:06:18 DEBUG: 执行步骤：点击
+2022-04-15 18:06:18 DEBUG: POST http://localhost:28339/session/d9a6b2652ab7a9a1ecc81b06a0c32c5d/element {"using": "xpath", "value": "//*[@id=\"su\"]"}
+2022-04-15 18:06:18 DEBUG: http://localhost:28339 "POST /session/d9a6b2652ab7a9a1ecc81b06a0c32c5d/element HTTP/1.1" 200 88
+2022-04-15 18:06:18 DEBUG: Finished Request
+2022-04-15 18:06:18 DEBUG: POST http://localhost:28339/session/d9a6b2652ab7a9a1ecc81b06a0c32c5d/element/88d29d43-1fcc-408d-8e81-69475800761a/click {"id": "88d29d43-1fcc-408d-8e81-69475800761a"}
+2022-04-15 18:06:18 DEBUG: http://localhost:28339 "POST /session/d9a6b2652ab7a9a1ecc81b06a0c32c5d/element/88d29d43-1fcc-408d-8e81-69475800761a/click HTTP/1.1" 200 14
+2022-04-15 18:06:18 DEBUG: Finished Request
+2022-04-15 18:06:18 DEBUG: 执行步骤：等待
+2022-04-15 18:06:21 DEBUG: DELETE http://localhost:28339/session/d9a6b2652ab7a9a1ecc81b06a0c32c5d {}
+2022-04-15 18:06:22 DEBUG: http://localhost:28339 "DELETE /session/d9a6b2652ab7a9a1ecc81b06a0c32c5d HTTP/1.1" 200 14
+2022-04-15 18:06:22 DEBUG: Finished Request
