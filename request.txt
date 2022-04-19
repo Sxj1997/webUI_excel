@@ -4,3 +4,5 @@ allure-pytest==2.9.45
 openpyxl==3.0.9
 pytest==7.0.0
 selenium==4.0.0
+pytest-html==3.1.1
+pytest-renrunfailures==10.2
