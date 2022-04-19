@@ -1,0 +1,6 @@
+#python版本3.8
+PyYAML==6.0
+allure-pytest==2.9.45
+openpyxl==3.0.9
+pytest==7.0.0
+selenium==4.0.0

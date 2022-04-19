@@ -1,3 +1,4 @@
+import allure
 import openpyxl
 from base.base_tools import Base
 from base.case_runner import CaseRunner
@@ -27,6 +28,7 @@ class TestData:
         self.excel_obj.close()
         self.b.quit()
 
+    @allure.title("百度测试")
     @pytest.mark.parametrize('case_name', get_sheet_column_value(openpyxl.load_workbook(excel_file),
                                                                  yaml_read(config_file)))
     def test_case(self, case_name):
