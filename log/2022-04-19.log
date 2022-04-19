@@ -1,0 +1,899 @@
+2022-04-19 11:44:06 DEBUG: 执行sheet页：查询1
+2022-04-19 11:44:06 DEBUG: 执行步骤：打开网页
+2022-04-19 11:44:06 DEBUG: POST http://localhost:23849/session/bd5e9ca5bd5037047c48ba38086b5417/url {"url": "http://www.baidu.com"}
+2022-04-19 11:44:08 DEBUG: http://localhost:23849 "POST /session/bd5e9ca5bd5037047c48ba38086b5417/url HTTP/1.1" 200 14
+2022-04-19 11:44:08 DEBUG: Finished Request
+2022-04-19 11:44:08 DEBUG: 执行步骤：等待
+2022-04-19 11:44:09 DEBUG: 执行步骤：输入
+2022-04-19 11:44:09 DEBUG: POST http://localhost:23849/session/bd5e9ca5bd5037047c48ba38086b5417/element {"using": "xpath", "value": "//*[@id=\"kw\"]"}
+2022-04-19 11:44:09 DEBUG: http://localhost:23849 "POST /session/bd5e9ca5bd5037047c48ba38086b5417/element HTTP/1.1" 200 88
+2022-04-19 11:44:09 DEBUG: Finished Request
+2022-04-19 11:44:09 DEBUG: POST http://localhost:23849/session/bd5e9ca5bd5037047c48ba38086b5417/element/48a34371-11f8-46bc-a21c-9ab2f9730476/value {"text": "python", "value": ["p", "y", "t", "h", "o", "n"], "id": "48a34371-11f8-46bc-a21c-9ab2f9730476"}
+2022-04-19 11:44:10 DEBUG: http://localhost:23849 "POST /session/bd5e9ca5bd5037047c48ba38086b5417/element/48a34371-11f8-46bc-a21c-9ab2f9730476/value HTTP/1.1" 200 14
+2022-04-19 11:44:10 DEBUG: Finished Request
+2022-04-19 11:44:10 DEBUG: 执行步骤：等待
+2022-04-19 11:44:11 DEBUG: 执行步骤：点击
+2022-04-19 11:44:11 DEBUG: POST http://localhost:23849/session/bd5e9ca5bd5037047c48ba38086b5417/element {"using": "xpath", "value": "//*[@id=\"su\"]"}
+2022-04-19 11:44:11 DEBUG: http://localhost:23849 "POST /session/bd5e9ca5bd5037047c48ba38086b5417/element HTTP/1.1" 200 88
+2022-04-19 11:44:11 DEBUG: Finished Request
+2022-04-19 11:44:11 DEBUG: POST http://localhost:23849/session/bd5e9ca5bd5037047c48ba38086b5417/element/f2ced8a6-acaf-4942-97c7-a5151601a726/click {"id": "f2ced8a6-acaf-4942-97c7-a5151601a726"}
+2022-04-19 11:44:11 DEBUG: http://localhost:23849 "POST /session/bd5e9ca5bd5037047c48ba38086b5417/element/f2ced8a6-acaf-4942-97c7-a5151601a726/click HTTP/1.1" 200 14
+2022-04-19 11:44:11 DEBUG: Finished Request
+2022-04-19 11:44:11 DEBUG: 执行步骤：等待
+2022-04-19 11:44:14 DEBUG: DELETE http://localhost:23849/session/bd5e9ca5bd5037047c48ba38086b5417 {}
+2022-04-19 11:44:14 DEBUG: http://localhost:23849 "DELETE /session/bd5e9ca5bd5037047c48ba38086b5417 HTTP/1.1" 200 14
+2022-04-19 11:44:14 DEBUG: Finished Request
+2022-04-19 11:44:38 DEBUG: 执行sheet页：查询1
+2022-04-19 11:44:38 DEBUG: 执行步骤：打开网页
+2022-04-19 11:44:38 DEBUG: POST http://localhost:24020/session/1028f8ab8ae7062fb1408e2071fc7ee6/url {"url": "http://www.baidu.com"}
+2022-04-19 11:44:40 DEBUG: http://localhost:24020 "POST /session/1028f8ab8ae7062fb1408e2071fc7ee6/url HTTP/1.1" 200 14
+2022-04-19 11:44:40 DEBUG: Finished Request
+2022-04-19 11:44:40 DEBUG: 执行步骤：等待
+2022-04-19 11:44:41 DEBUG: 执行步骤：输入
+2022-04-19 11:44:41 DEBUG: POST http://localhost:24020/session/1028f8ab8ae7062fb1408e2071fc7ee6/element {"using": "xpath", "value": "//*[@id=\"kw\"]"}
+2022-04-19 11:44:41 DEBUG: http://localhost:24020 "POST /session/1028f8ab8ae7062fb1408e2071fc7ee6/element HTTP/1.1" 200 88
+2022-04-19 11:44:41 DEBUG: Finished Request
+2022-04-19 11:44:41 DEBUG: POST http://localhost:24020/session/1028f8ab8ae7062fb1408e2071fc7ee6/element/d264675b-6edc-4ee3-aa5a-9239d8ae8f75/value {"text": "python", "value": ["p", "y", "t", "h", "o", "n"], "id": "d264675b-6edc-4ee3-aa5a-9239d8ae8f75"}
+2022-04-19 11:44:41 DEBUG: http://localhost:24020 "POST /session/1028f8ab8ae7062fb1408e2071fc7ee6/element/d264675b-6edc-4ee3-aa5a-9239d8ae8f75/value HTTP/1.1" 200 14
+2022-04-19 11:44:41 DEBUG: Finished Request
+2022-04-19 11:44:41 DEBUG: 执行步骤：等待
+2022-04-19 11:44:42 DEBUG: 执行步骤：点击
+2022-04-19 11:44:42 DEBUG: POST http://localhost:24020/session/1028f8ab8ae7062fb1408e2071fc7ee6/element {"using": "xpath", "value": "//*[@id=\"su\"]"}
+2022-04-19 11:44:42 DEBUG: http://localhost:24020 "POST /session/1028f8ab8ae7062fb1408e2071fc7ee6/element HTTP/1.1" 200 88
+2022-04-19 11:44:42 DEBUG: Finished Request
+2022-04-19 11:44:42 DEBUG: POST http://localhost:24020/session/1028f8ab8ae7062fb1408e2071fc7ee6/element/5537dabc-e68b-4ef1-8bb3-b0d48938f6af/click {"id": "5537dabc-e68b-4ef1-8bb3-b0d48938f6af"}
+2022-04-19 11:44:42 DEBUG: http://localhost:24020 "POST /session/1028f8ab8ae7062fb1408e2071fc7ee6/element/5537dabc-e68b-4ef1-8bb3-b0d48938f6af/click HTTP/1.1" 200 14
+2022-04-19 11:44:42 DEBUG: Finished Request
+2022-04-19 11:44:42 DEBUG: 执行步骤：等待
+2022-04-19 11:44:45 DEBUG: DELETE http://localhost:24020/session/1028f8ab8ae7062fb1408e2071fc7ee6 {}
+2022-04-19 11:44:45 DEBUG: http://localhost:24020 "DELETE /session/1028f8ab8ae7062fb1408e2071fc7ee6 HTTP/1.1" 200 14
+2022-04-19 11:44:45 DEBUG: Finished Request
+2022-04-19 15:56:53 DEBUG: 执行sheet页：查询1
+2022-04-19 15:56:53 DEBUG: 执行步骤：打开网页
+2022-04-19 15:56:53 DEBUG: POST http://localhost:60198/session/2103dca49be5b90cf5ffaffa8f163a5d/url {"url": "http://www.baidu.com"}
+2022-04-19 15:56:54 DEBUG: http://localhost:60198 "POST /session/2103dca49be5b90cf5ffaffa8f163a5d/url HTTP/1.1" 200 14
+2022-04-19 15:56:54 DEBUG: Finished Request
+2022-04-19 15:56:54 DEBUG: 执行步骤：等待
+2022-04-19 15:56:55 DEBUG: 执行步骤：输入
+2022-04-19 15:56:55 DEBUG: POST http://localhost:60198/session/2103dca49be5b90cf5ffaffa8f163a5d/element {"using": "xpath", "value": "//*[@id=\"kw\"]"}
+2022-04-19 15:56:55 DEBUG: http://localhost:60198 "POST /session/2103dca49be5b90cf5ffaffa8f163a5d/element HTTP/1.1" 200 88
+2022-04-19 15:56:55 DEBUG: Finished Request
+2022-04-19 15:56:55 DEBUG: POST http://localhost:60198/session/2103dca49be5b90cf5ffaffa8f163a5d/element/43d758b4-1b00-4e10-be63-88740a4ac72a/value {"text": "python", "value": ["p", "y", "t", "h", "o", "n"], "id": "43d758b4-1b00-4e10-be63-88740a4ac72a"}
+2022-04-19 15:56:55 DEBUG: http://localhost:60198 "POST /session/2103dca49be5b90cf5ffaffa8f163a5d/element/43d758b4-1b00-4e10-be63-88740a4ac72a/value HTTP/1.1" 200 14
+2022-04-19 15:56:55 DEBUG: Finished Request
+2022-04-19 15:56:55 DEBUG: 执行步骤：等待
+2022-04-19 15:56:56 DEBUG: 执行步骤：点击
+2022-04-19 15:56:56 DEBUG: POST http://localhost:60198/session/2103dca49be5b90cf5ffaffa8f163a5d/element {"using": "xpath", "value": "//*[@id=\"su\"]"}
+2022-04-19 15:56:56 DEBUG: http://localhost:60198 "POST /session/2103dca49be5b90cf5ffaffa8f163a5d/element HTTP/1.1" 200 88
+2022-04-19 15:56:56 DEBUG: Finished Request
+2022-04-19 15:56:56 DEBUG: POST http://localhost:60198/session/2103dca49be5b90cf5ffaffa8f163a5d/element/7bcf7fa7-cafe-4ebb-b3f1-6bc1127de0fd/click {"id": "7bcf7fa7-cafe-4ebb-b3f1-6bc1127de0fd"}
+2022-04-19 15:56:56 DEBUG: http://localhost:60198 "POST /session/2103dca49be5b90cf5ffaffa8f163a5d/element/7bcf7fa7-cafe-4ebb-b3f1-6bc1127de0fd/click HTTP/1.1" 200 14
+2022-04-19 15:56:56 DEBUG: Finished Request
+2022-04-19 15:56:56 DEBUG: 执行步骤：等待
+2022-04-19 15:56:59 DEBUG: DELETE http://localhost:60198/session/2103dca49be5b90cf5ffaffa8f163a5d {}
+2022-04-19 15:57:00 DEBUG: http://localhost:60198 "DELETE /session/2103dca49be5b90cf5ffaffa8f163a5d HTTP/1.1" 200 14
+2022-04-19 15:57:00 DEBUG: Finished Request
+2022-04-19 16:48:35 DEBUG: 执行sheet页：查询1
+2022-04-19 16:48:35 DEBUG: 执行步骤：打开网页
+2022-04-19 16:48:35 DEBUG: POST http://localhost:4548/session/7e8e26c5adbc9f16ac7ce687c4d970ec/url {"url": "http://www.baidu.com"}
+2022-04-19 16:48:36 DEBUG: http://localhost:4548 "POST /session/7e8e26c5adbc9f16ac7ce687c4d970ec/url HTTP/1.1" 200 14
+2022-04-19 16:48:36 DEBUG: Finished Request
+2022-04-19 16:48:36 DEBUG: 执行步骤：等待
+2022-04-19 16:48:37 DEBUG: 执行步骤：输入
+2022-04-19 16:48:37 DEBUG: POST http://localhost:4548/session/7e8e26c5adbc9f16ac7ce687c4d970ec/element {"using": "xpath", "value": "//*[@id=\"kw\"]"}
+2022-04-19 16:48:37 DEBUG: http://localhost:4548 "POST /session/7e8e26c5adbc9f16ac7ce687c4d970ec/element HTTP/1.1" 200 88
+2022-04-19 16:48:37 DEBUG: Finished Request
+2022-04-19 16:48:37 DEBUG: POST http://localhost:4548/session/7e8e26c5adbc9f16ac7ce687c4d970ec/element/e159b891-f0cd-41b0-b06e-bf5e7ece2977/value {"text": "python", "value": ["p", "y", "t", "h", "o", "n"], "id": "e159b891-f0cd-41b0-b06e-bf5e7ece2977"}
+2022-04-19 16:48:38 DEBUG: http://localhost:4548 "POST /session/7e8e26c5adbc9f16ac7ce687c4d970ec/element/e159b891-f0cd-41b0-b06e-bf5e7ece2977/value HTTP/1.1" 200 14
+2022-04-19 16:48:38 DEBUG: Finished Request
+2022-04-19 16:48:38 DEBUG: 执行步骤：等待
+2022-04-19 16:48:39 DEBUG: 执行步骤：点击
+2022-04-19 16:48:39 DEBUG: POST http://localhost:4548/session/7e8e26c5adbc9f16ac7ce687c4d970ec/element {"using": "xpath", "value": "//*[@id=\"su\"]"}
+2022-04-19 16:48:39 DEBUG: http://localhost:4548 "POST /session/7e8e26c5adbc9f16ac7ce687c4d970ec/element HTTP/1.1" 200 88
+2022-04-19 16:48:39 DEBUG: Finished Request
+2022-04-19 16:48:39 DEBUG: POST http://localhost:4548/session/7e8e26c5adbc9f16ac7ce687c4d970ec/element/1eb4e5da-2067-4ce5-afe9-6b118a55df2b/click {"id": "1eb4e5da-2067-4ce5-afe9-6b118a55df2b"}
+2022-04-19 16:48:39 DEBUG: http://localhost:4548 "POST /session/7e8e26c5adbc9f16ac7ce687c4d970ec/element/1eb4e5da-2067-4ce5-afe9-6b118a55df2b/click HTTP/1.1" 200 14
+2022-04-19 16:48:39 DEBUG: Finished Request
+2022-04-19 16:48:39 DEBUG: 执行步骤：等待
+2022-04-19 16:48:42 DEBUG: DELETE http://localhost:4548/session/7e8e26c5adbc9f16ac7ce687c4d970ec {}
+2022-04-19 16:48:42 DEBUG: http://localhost:4548 "DELETE /session/7e8e26c5adbc9f16ac7ce687c4d970ec HTTP/1.1" 200 14
+2022-04-19 16:48:42 DEBUG: Finished Request
+2022-04-19 16:50:51 DEBUG: 执行sheet页：查询1
+2022-04-19 16:50:51 DEBUG: 执行步骤：打开网页
+2022-04-19 16:50:51 DEBUG: POST http://localhost:5214/session/9e4a8fc39584371ceaefb9f51ba3c0be/url {"url": "http://www.baidu.com"}
+2022-04-19 16:50:52 DEBUG: http://localhost:5214 "POST /session/9e4a8fc39584371ceaefb9f51ba3c0be/url HTTP/1.1" 200 14
+2022-04-19 16:50:52 DEBUG: Finished Request
+2022-04-19 16:50:52 DEBUG: 执行步骤：等待
+2022-04-19 16:50:53 DEBUG: 执行步骤：输入
+2022-04-19 16:50:53 DEBUG: POST http://localhost:5214/session/9e4a8fc39584371ceaefb9f51ba3c0be/element {"using": "xpath", "value": "//*[@id=\"kw\"]"}
+2022-04-19 16:50:53 DEBUG: http://localhost:5214 "POST /session/9e4a8fc39584371ceaefb9f51ba3c0be/element HTTP/1.1" 200 88
+2022-04-19 16:50:53 DEBUG: Finished Request
+2022-04-19 16:50:53 DEBUG: POST http://localhost:5214/session/9e4a8fc39584371ceaefb9f51ba3c0be/element/44545303-6241-4f33-becc-555a321b4a02/value {"text": "python", "value": ["p", "y", "t", "h", "o", "n"], "id": "44545303-6241-4f33-becc-555a321b4a02"}
+2022-04-19 16:50:53 DEBUG: http://localhost:5214 "POST /session/9e4a8fc39584371ceaefb9f51ba3c0be/element/44545303-6241-4f33-becc-555a321b4a02/value HTTP/1.1" 200 14
+2022-04-19 16:50:53 DEBUG: Finished Request
+2022-04-19 16:50:53 DEBUG: 执行步骤：等待
+2022-04-19 16:50:54 DEBUG: 执行步骤：点击
+2022-04-19 16:50:54 DEBUG: POST http://localhost:5214/session/9e4a8fc39584371ceaefb9f51ba3c0be/element {"using": "xpath", "value": "//*[@id=\"su\"]"}
+2022-04-19 16:50:54 DEBUG: http://localhost:5214 "POST /session/9e4a8fc39584371ceaefb9f51ba3c0be/element HTTP/1.1" 200 88
+2022-04-19 16:50:54 DEBUG: Finished Request
+2022-04-19 16:50:54 DEBUG: POST http://localhost:5214/session/9e4a8fc39584371ceaefb9f51ba3c0be/element/3bd021fe-74b2-481c-85d1-fd2beb73610a/click {"id": "3bd021fe-74b2-481c-85d1-fd2beb73610a"}
+2022-04-19 16:50:54 DEBUG: http://localhost:5214 "POST /session/9e4a8fc39584371ceaefb9f51ba3c0be/element/3bd021fe-74b2-481c-85d1-fd2beb73610a/click HTTP/1.1" 200 14
+2022-04-19 16:50:54 DEBUG: Finished Request
+2022-04-19 16:50:54 DEBUG: 执行步骤：等待
+2022-04-19 16:50:57 DEBUG: 执行sheet页：查询2
+2022-04-19 16:50:57 DEBUG: 执行步骤：打开网页
+2022-04-19 16:50:57 DEBUG: POST http://localhost:5214/session/9e4a8fc39584371ceaefb9f51ba3c0be/url {"url": "http://www.baidu.com"}
+2022-04-19 16:50:58 DEBUG: http://localhost:5214 "POST /session/9e4a8fc39584371ceaefb9f51ba3c0be/url HTTP/1.1" 200 14
+2022-04-19 16:50:58 DEBUG: Finished Request
+2022-04-19 16:50:58 DEBUG: 执行步骤：等待
+2022-04-19 16:50:59 DEBUG: 执行步骤：输入
+2022-04-19 16:50:59 DEBUG: POST http://localhost:5214/session/9e4a8fc39584371ceaefb9f51ba3c0be/element {"using": "xpath", "value": "//*[@id=\"kw\"]"}
+2022-04-19 16:50:59 DEBUG: http://localhost:5214 "POST /session/9e4a8fc39584371ceaefb9f51ba3c0be/element HTTP/1.1" 200 88
+2022-04-19 16:50:59 DEBUG: Finished Request
+2022-04-19 16:50:59 DEBUG: POST http://localhost:5214/session/9e4a8fc39584371ceaefb9f51ba3c0be/element/fa0d039a-a204-413f-a436-4a36fbbb2475/value {"text": "Java", "value": ["J", "a", "v", "a"], "id": "fa0d039a-a204-413f-a436-4a36fbbb2475"}
+2022-04-19 16:50:59 DEBUG: http://localhost:5214 "POST /session/9e4a8fc39584371ceaefb9f51ba3c0be/element/fa0d039a-a204-413f-a436-4a36fbbb2475/value HTTP/1.1" 200 14
+2022-04-19 16:50:59 DEBUG: Finished Request
+2022-04-19 16:50:59 DEBUG: 执行步骤：等待
+2022-04-19 16:51:00 DEBUG: 执行步骤：点击
+2022-04-19 16:51:00 DEBUG: POST http://localhost:5214/session/9e4a8fc39584371ceaefb9f51ba3c0be/element {"using": "xpath", "value": "//*[@id=\"su\"]"}
+2022-04-19 16:51:00 DEBUG: http://localhost:5214 "POST /session/9e4a8fc39584371ceaefb9f51ba3c0be/element HTTP/1.1" 200 88
+2022-04-19 16:51:00 DEBUG: Finished Request
+2022-04-19 16:51:00 DEBUG: POST http://localhost:5214/session/9e4a8fc39584371ceaefb9f51ba3c0be/element/38c7980a-2759-4729-aaf5-f90b0bd7925a/click {"id": "38c7980a-2759-4729-aaf5-f90b0bd7925a"}
+2022-04-19 16:51:00 DEBUG: http://localhost:5214 "POST /session/9e4a8fc39584371ceaefb9f51ba3c0be/element/38c7980a-2759-4729-aaf5-f90b0bd7925a/click HTTP/1.1" 200 14
+2022-04-19 16:51:00 DEBUG: Finished Request
+2022-04-19 16:51:00 DEBUG: 执行步骤：等待
+2022-04-19 16:51:03 DEBUG: DELETE http://localhost:5214/session/9e4a8fc39584371ceaefb9f51ba3c0be {}
+2022-04-19 16:51:03 DEBUG: http://localhost:5214 "DELETE /session/9e4a8fc39584371ceaefb9f51ba3c0be HTTP/1.1" 200 14
+2022-04-19 16:51:03 DEBUG: Finished Request
+2022-04-19 17:06:33 DEBUG: 执行sheet页：查询1
+2022-04-19 17:06:33 DEBUG: 执行步骤：打开网页
+2022-04-19 17:06:33 DEBUG: POST http://localhost:8001/session/b7e5334e086b303d8de2ddd21c204b79/url {"url": "http://www.baidu.com"}
+2022-04-19 17:06:35 DEBUG: http://localhost:8001 "POST /session/b7e5334e086b303d8de2ddd21c204b79/url HTTP/1.1" 200 14
+2022-04-19 17:06:35 DEBUG: Finished Request
+2022-04-19 17:06:35 DEBUG: 执行步骤：等待
+2022-04-19 17:06:36 DEBUG: 执行步骤：输入
+2022-04-19 17:06:36 DEBUG: POST http://localhost:8001/session/b7e5334e086b303d8de2ddd21c204b79/element {"using": "xpath", "value": "//*[@id=\"kw\"]"}
+2022-04-19 17:06:36 DEBUG: http://localhost:8001 "POST /session/b7e5334e086b303d8de2ddd21c204b79/element HTTP/1.1" 200 88
+2022-04-19 17:06:36 DEBUG: Finished Request
+2022-04-19 17:06:36 DEBUG: POST http://localhost:8001/session/b7e5334e086b303d8de2ddd21c204b79/element/36d3f9ae-7975-4be7-a82e-e6e0914116ea/value {"text": "python", "value": ["p", "y", "t", "h", "o", "n"], "id": "36d3f9ae-7975-4be7-a82e-e6e0914116ea"}
+2022-04-19 17:06:36 DEBUG: http://localhost:8001 "POST /session/b7e5334e086b303d8de2ddd21c204b79/element/36d3f9ae-7975-4be7-a82e-e6e0914116ea/value HTTP/1.1" 200 14
+2022-04-19 17:06:36 DEBUG: Finished Request
+2022-04-19 17:06:36 DEBUG: 执行步骤：等待
+2022-04-19 17:06:37 DEBUG: 执行步骤：点击
+2022-04-19 17:06:37 DEBUG: POST http://localhost:8001/session/b7e5334e086b303d8de2ddd21c204b79/element {"using": "xpath", "value": "//*[@id=\"su\"]"}
+2022-04-19 17:06:37 DEBUG: http://localhost:8001 "POST /session/b7e5334e086b303d8de2ddd21c204b79/element HTTP/1.1" 200 88
+2022-04-19 17:06:37 DEBUG: Finished Request
+2022-04-19 17:06:37 DEBUG: POST http://localhost:8001/session/b7e5334e086b303d8de2ddd21c204b79/element/9b87b79f-f5a3-4ce5-8b88-634b446640f0/click {"id": "9b87b79f-f5a3-4ce5-8b88-634b446640f0"}
+2022-04-19 17:06:37 DEBUG: http://localhost:8001 "POST /session/b7e5334e086b303d8de2ddd21c204b79/element/9b87b79f-f5a3-4ce5-8b88-634b446640f0/click HTTP/1.1" 200 14
+2022-04-19 17:06:37 DEBUG: Finished Request
+2022-04-19 17:06:37 DEBUG: 执行步骤：等待
+2022-04-19 17:06:40 DEBUG: 执行sheet页：查询2
+2022-04-19 17:06:40 DEBUG: 执行步骤：打开网页
+2022-04-19 17:06:40 DEBUG: POST http://localhost:8001/session/b7e5334e086b303d8de2ddd21c204b79/url {"url": "http://www.baidu.com"}
+2022-04-19 17:06:40 DEBUG: http://localhost:8001 "POST /session/b7e5334e086b303d8de2ddd21c204b79/url HTTP/1.1" 200 14
+2022-04-19 17:06:40 DEBUG: Finished Request
+2022-04-19 17:06:40 DEBUG: 执行步骤：等待
+2022-04-19 17:06:41 DEBUG: 执行步骤：输入
+2022-04-19 17:06:41 DEBUG: POST http://localhost:8001/session/b7e5334e086b303d8de2ddd21c204b79/element {"using": "xpath", "value": "//*[@id=\"wqe\"]"}
+2022-04-19 17:06:41 DEBUG: http://localhost:8001 "POST /session/b7e5334e086b303d8de2ddd21c204b79/element HTTP/1.1" 404 1023
+2022-04-19 17:06:41 DEBUG: Finished Request
+2022-04-19 17:06:42 DEBUG: POST http://localhost:8001/session/b7e5334e086b303d8de2ddd21c204b79/element {"using": "xpath", "value": "//*[@id=\"wqe\"]"}
+2022-04-19 17:06:42 DEBUG: http://localhost:8001 "POST /session/b7e5334e086b303d8de2ddd21c204b79/element HTTP/1.1" 404 1023
+2022-04-19 17:06:42 DEBUG: Finished Request
+2022-04-19 17:06:42 DEBUG: POST http://localhost:8001/session/b7e5334e086b303d8de2ddd21c204b79/element {"using": "xpath", "value": "//*[@id=\"wqe\"]"}
+2022-04-19 17:06:42 DEBUG: http://localhost:8001 "POST /session/b7e5334e086b303d8de2ddd21c204b79/element HTTP/1.1" 404 1023
+2022-04-19 17:06:42 DEBUG: Finished Request
+2022-04-19 17:06:43 DEBUG: POST http://localhost:8001/session/b7e5334e086b303d8de2ddd21c204b79/element {"using": "xpath", "value": "//*[@id=\"wqe\"]"}
+2022-04-19 17:06:43 DEBUG: http://localhost:8001 "POST /session/b7e5334e086b303d8de2ddd21c204b79/element HTTP/1.1" 404 1023
+2022-04-19 17:06:43 DEBUG: Finished Request
+2022-04-19 17:06:43 DEBUG: POST http://localhost:8001/session/b7e5334e086b303d8de2ddd21c204b79/element {"using": "xpath", "value": "//*[@id=\"wqe\"]"}
+2022-04-19 17:06:43 DEBUG: http://localhost:8001 "POST /session/b7e5334e086b303d8de2ddd21c204b79/element HTTP/1.1" 404 1023
+2022-04-19 17:06:43 DEBUG: Finished Request
+2022-04-19 17:06:44 DEBUG: POST http://localhost:8001/session/b7e5334e086b303d8de2ddd21c204b79/element {"using": "xpath", "value": "//*[@id=\"wqe\"]"}
+2022-04-19 17:06:44 DEBUG: http://localhost:8001 "POST /session/b7e5334e086b303d8de2ddd21c204b79/element HTTP/1.1" 404 1023
+2022-04-19 17:06:44 DEBUG: Finished Request
+2022-04-19 17:06:44 DEBUG: POST http://localhost:8001/session/b7e5334e086b303d8de2ddd21c204b79/element {"using": "xpath", "value": "//*[@id=\"wqe\"]"}
+2022-04-19 17:06:44 DEBUG: http://localhost:8001 "POST /session/b7e5334e086b303d8de2ddd21c204b79/element HTTP/1.1" 404 1023
+2022-04-19 17:06:44 DEBUG: Finished Request
+2022-04-19 17:06:45 DEBUG: POST http://localhost:8001/session/b7e5334e086b303d8de2ddd21c204b79/element {"using": "xpath", "value": "//*[@id=\"wqe\"]"}
+2022-04-19 17:06:45 DEBUG: http://localhost:8001 "POST /session/b7e5334e086b303d8de2ddd21c204b79/element HTTP/1.1" 404 1023
+2022-04-19 17:06:45 DEBUG: Finished Request
+2022-04-19 17:06:46 DEBUG: POST http://localhost:8001/session/b7e5334e086b303d8de2ddd21c204b79/element {"using": "xpath", "value": "//*[@id=\"wqe\"]"}
+2022-04-19 17:06:46 DEBUG: http://localhost:8001 "POST /session/b7e5334e086b303d8de2ddd21c204b79/element HTTP/1.1" 404 1023
+2022-04-19 17:06:46 DEBUG: Finished Request
+2022-04-19 17:06:46 DEBUG: POST http://localhost:8001/session/b7e5334e086b303d8de2ddd21c204b79/element {"using": "xpath", "value": "//*[@id=\"wqe\"]"}
+2022-04-19 17:06:46 DEBUG: http://localhost:8001 "POST /session/b7e5334e086b303d8de2ddd21c204b79/element HTTP/1.1" 404 1023
+2022-04-19 17:06:46 DEBUG: Finished Request
+2022-04-19 17:06:47 DEBUG: POST http://localhost:8001/session/b7e5334e086b303d8de2ddd21c204b79/element {"using": "xpath", "value": "//*[@id=\"wqe\"]"}
+2022-04-19 17:06:47 DEBUG: http://localhost:8001 "POST /session/b7e5334e086b303d8de2ddd21c204b79/element HTTP/1.1" 404 1023
+2022-04-19 17:06:47 DEBUG: Finished Request
+2022-04-19 17:06:47 DEBUG: POST http://localhost:8001/session/b7e5334e086b303d8de2ddd21c204b79/element {"using": "xpath", "value": "//*[@id=\"wqe\"]"}
+2022-04-19 17:06:47 DEBUG: http://localhost:8001 "POST /session/b7e5334e086b303d8de2ddd21c204b79/element HTTP/1.1" 404 1023
+2022-04-19 17:06:47 DEBUG: Finished Request
+2022-04-19 17:06:48 ERROR: 执行步骤：输入 失败
+2022-04-19 17:06:48 ERROR: Message: 
+Stacktrace:
+Backtrace:
+	Ordinal0 [0x00347413+2389011]
+	Ordinal0 [0x002D9F61+1941345]
+	Ordinal0 [0x001CC658+837208]
+	Ordinal0 [0x001F91DD+1020381]
+	Ordinal0 [0x001F949B+1021083]
+	Ordinal0 [0x00226032+1204274]
+	Ordinal0 [0x00214194+1130900]
+	Ordinal0 [0x00224302+1196802]
+	Ordinal0 [0x00213F66+1130342]
+	Ordinal0 [0x001EE546+976198]
+	Ordinal0 [0x001EF456+980054]
+	GetHandleVerifier [0x004F9632+1727522]
+	GetHandleVerifier [0x005ABA4D+2457661]
+	GetHandleVerifier [0x003DEB81+569713]
+	GetHandleVerifier [0x003DDD76+566118]
+	Ordinal0 [0x002E0B2B+1968939]
+	Ordinal0 [0x002E5988+1989000]
+	Ordinal0 [0x002E5A75+1989237]
+	Ordinal0 [0x002EECB1+2026673]
+	BaseThreadInitThunk [0x76D1FA29+25]
+	RtlGetAppContainerNamedObjectPath [0x77377A7E+286]
+	RtlGetAppContainerNamedObjectPath [0x77377A4E+238]
+
+2022-04-19 17:06:48 DEBUG: DELETE http://localhost:8001/session/b7e5334e086b303d8de2ddd21c204b79 {}
+2022-04-19 17:06:48 DEBUG: http://localhost:8001 "DELETE /session/b7e5334e086b303d8de2ddd21c204b79 HTTP/1.1" 200 14
+2022-04-19 17:06:48 DEBUG: Finished Request
+2022-04-19 17:06:53 DEBUG: POST http://localhost:8130/session {"capabilities": {"firstMatch": [{}], "alwaysMatch": {"browserName": "chrome", "pageLoadStrategy": "normal", "goog:chromeOptions": {"excludeSwitches": ["enable-automation"], "prefs": {"credentials_enable_service": false, "profile.password_manager_enable": false}, "extensions": [], "args": ["start-maximized", "--no-sandbox", "--kiosk-printing"]}}}, "desiredCapabilities": {"browserName": "chrome", "pageLoadStrategy": "normal", "goog:chromeOptions": {"excludeSwitches": ["enable-automation"], "prefs": {"credentials_enable_service": false, "profile.password_manager_enable": false}, "extensions": [], "args": ["start-maximized", "--no-sandbox", "--kiosk-printing"]}}}
+2022-04-19 17:06:53 DEBUG: Starting new HTTP connection (1): localhost:8130
+2022-04-19 17:06:54 DEBUG: http://localhost:8130 "POST /session HTTP/1.1" 200 792
+2022-04-19 17:06:54 DEBUG: Finished Request
+2022-04-19 17:06:54 DEBUG: 执行sheet页：查询2
+2022-04-19 17:06:54 DEBUG: 执行sheet页：查询2
+2022-04-19 17:06:54 DEBUG: 执行步骤：打开网页
+2022-04-19 17:06:54 DEBUG: 执行步骤：打开网页
+2022-04-19 17:06:54 DEBUG: POST http://localhost:8130/session/2efdaab6b6225164a3b380e61a758950/url {"url": "http://www.baidu.com"}
+2022-04-19 17:06:54 DEBUG: POST http://localhost:8130/session/2efdaab6b6225164a3b380e61a758950/url {"url": "http://www.baidu.com"}
+2022-04-19 17:06:55 DEBUG: http://localhost:8130 "POST /session/2efdaab6b6225164a3b380e61a758950/url HTTP/1.1" 200 14
+2022-04-19 17:06:55 DEBUG: http://localhost:8130 "POST /session/2efdaab6b6225164a3b380e61a758950/url HTTP/1.1" 200 14
+2022-04-19 17:06:55 DEBUG: Finished Request
+2022-04-19 17:06:55 DEBUG: Finished Request
+2022-04-19 17:06:55 DEBUG: 执行步骤：等待
+2022-04-19 17:06:55 DEBUG: 执行步骤：等待
+2022-04-19 17:06:56 DEBUG: 执行步骤：输入
+2022-04-19 17:06:56 DEBUG: 执行步骤：输入
+2022-04-19 17:06:56 DEBUG: POST http://localhost:8130/session/2efdaab6b6225164a3b380e61a758950/element {"using": "xpath", "value": "//*[@id=\"wqe\"]"}
+2022-04-19 17:06:56 DEBUG: POST http://localhost:8130/session/2efdaab6b6225164a3b380e61a758950/element {"using": "xpath", "value": "//*[@id=\"wqe\"]"}
+2022-04-19 17:06:56 DEBUG: http://localhost:8130 "POST /session/2efdaab6b6225164a3b380e61a758950/element HTTP/1.1" 404 1023
+2022-04-19 17:06:56 DEBUG: http://localhost:8130 "POST /session/2efdaab6b6225164a3b380e61a758950/element HTTP/1.1" 404 1023
+2022-04-19 17:06:56 DEBUG: Finished Request
+2022-04-19 17:06:56 DEBUG: Finished Request
+2022-04-19 17:06:57 DEBUG: POST http://localhost:8130/session/2efdaab6b6225164a3b380e61a758950/element {"using": "xpath", "value": "//*[@id=\"wqe\"]"}
+2022-04-19 17:06:57 DEBUG: POST http://localhost:8130/session/2efdaab6b6225164a3b380e61a758950/element {"using": "xpath", "value": "//*[@id=\"wqe\"]"}
+2022-04-19 17:06:57 DEBUG: http://localhost:8130 "POST /session/2efdaab6b6225164a3b380e61a758950/element HTTP/1.1" 404 1023
+2022-04-19 17:06:57 DEBUG: http://localhost:8130 "POST /session/2efdaab6b6225164a3b380e61a758950/element HTTP/1.1" 404 1023
+2022-04-19 17:06:57 DEBUG: Finished Request
+2022-04-19 17:06:57 DEBUG: Finished Request
+2022-04-19 17:06:57 DEBUG: POST http://localhost:8130/session/2efdaab6b6225164a3b380e61a758950/element {"using": "xpath", "value": "//*[@id=\"wqe\"]"}
+2022-04-19 17:06:57 DEBUG: POST http://localhost:8130/session/2efdaab6b6225164a3b380e61a758950/element {"using": "xpath", "value": "//*[@id=\"wqe\"]"}
+2022-04-19 17:06:57 DEBUG: http://localhost:8130 "POST /session/2efdaab6b6225164a3b380e61a758950/element HTTP/1.1" 404 1023
+2022-04-19 17:06:57 DEBUG: http://localhost:8130 "POST /session/2efdaab6b6225164a3b380e61a758950/element HTTP/1.1" 404 1023
+2022-04-19 17:06:57 DEBUG: Finished Request
+2022-04-19 17:06:57 DEBUG: Finished Request
+2022-04-19 17:06:58 DEBUG: POST http://localhost:8130/session/2efdaab6b6225164a3b380e61a758950/element {"using": "xpath", "value": "//*[@id=\"wqe\"]"}
+2022-04-19 17:06:58 DEBUG: POST http://localhost:8130/session/2efdaab6b6225164a3b380e61a758950/element {"using": "xpath", "value": "//*[@id=\"wqe\"]"}
+2022-04-19 17:06:58 DEBUG: http://localhost:8130 "POST /session/2efdaab6b6225164a3b380e61a758950/element HTTP/1.1" 404 1023
+2022-04-19 17:06:58 DEBUG: http://localhost:8130 "POST /session/2efdaab6b6225164a3b380e61a758950/element HTTP/1.1" 404 1023
+2022-04-19 17:06:58 DEBUG: Finished Request
+2022-04-19 17:06:58 DEBUG: Finished Request
+2022-04-19 17:06:58 DEBUG: POST http://localhost:8130/session/2efdaab6b6225164a3b380e61a758950/element {"using": "xpath", "value": "//*[@id=\"wqe\"]"}
+2022-04-19 17:06:58 DEBUG: POST http://localhost:8130/session/2efdaab6b6225164a3b380e61a758950/element {"using": "xpath", "value": "//*[@id=\"wqe\"]"}
+2022-04-19 17:06:58 DEBUG: http://localhost:8130 "POST /session/2efdaab6b6225164a3b380e61a758950/element HTTP/1.1" 404 1023
+2022-04-19 17:06:58 DEBUG: http://localhost:8130 "POST /session/2efdaab6b6225164a3b380e61a758950/element HTTP/1.1" 404 1023
+2022-04-19 17:06:58 DEBUG: Finished Request
+2022-04-19 17:06:58 DEBUG: Finished Request
+2022-04-19 17:06:59 DEBUG: POST http://localhost:8130/session/2efdaab6b6225164a3b380e61a758950/element {"using": "xpath", "value": "//*[@id=\"wqe\"]"}
+2022-04-19 17:06:59 DEBUG: POST http://localhost:8130/session/2efdaab6b6225164a3b380e61a758950/element {"using": "xpath", "value": "//*[@id=\"wqe\"]"}
+2022-04-19 17:06:59 DEBUG: http://localhost:8130 "POST /session/2efdaab6b6225164a3b380e61a758950/element HTTP/1.1" 404 1023
+2022-04-19 17:06:59 DEBUG: http://localhost:8130 "POST /session/2efdaab6b6225164a3b380e61a758950/element HTTP/1.1" 404 1023
+2022-04-19 17:06:59 DEBUG: Finished Request
+2022-04-19 17:06:59 DEBUG: Finished Request
+2022-04-19 17:06:59 DEBUG: POST http://localhost:8130/session/2efdaab6b6225164a3b380e61a758950/element {"using": "xpath", "value": "//*[@id=\"wqe\"]"}
+2022-04-19 17:06:59 DEBUG: POST http://localhost:8130/session/2efdaab6b6225164a3b380e61a758950/element {"using": "xpath", "value": "//*[@id=\"wqe\"]"}
+2022-04-19 17:06:59 DEBUG: http://localhost:8130 "POST /session/2efdaab6b6225164a3b380e61a758950/element HTTP/1.1" 404 1023
+2022-04-19 17:06:59 DEBUG: http://localhost:8130 "POST /session/2efdaab6b6225164a3b380e61a758950/element HTTP/1.1" 404 1023
+2022-04-19 17:06:59 DEBUG: Finished Request
+2022-04-19 17:06:59 DEBUG: Finished Request
+2022-04-19 17:07:00 DEBUG: POST http://localhost:8130/session/2efdaab6b6225164a3b380e61a758950/element {"using": "xpath", "value": "//*[@id=\"wqe\"]"}
+2022-04-19 17:07:00 DEBUG: POST http://localhost:8130/session/2efdaab6b6225164a3b380e61a758950/element {"using": "xpath", "value": "//*[@id=\"wqe\"]"}
+2022-04-19 17:07:00 DEBUG: http://localhost:8130 "POST /session/2efdaab6b6225164a3b380e61a758950/element HTTP/1.1" 404 1023
+2022-04-19 17:07:00 DEBUG: http://localhost:8130 "POST /session/2efdaab6b6225164a3b380e61a758950/element HTTP/1.1" 404 1023
+2022-04-19 17:07:00 DEBUG: Finished Request
+2022-04-19 17:07:00 DEBUG: Finished Request
+2022-04-19 17:07:01 DEBUG: POST http://localhost:8130/session/2efdaab6b6225164a3b380e61a758950/element {"using": "xpath", "value": "//*[@id=\"wqe\"]"}
+2022-04-19 17:07:01 DEBUG: POST http://localhost:8130/session/2efdaab6b6225164a3b380e61a758950/element {"using": "xpath", "value": "//*[@id=\"wqe\"]"}
+2022-04-19 17:07:01 DEBUG: http://localhost:8130 "POST /session/2efdaab6b6225164a3b380e61a758950/element HTTP/1.1" 404 1023
+2022-04-19 17:07:01 DEBUG: http://localhost:8130 "POST /session/2efdaab6b6225164a3b380e61a758950/element HTTP/1.1" 404 1023
+2022-04-19 17:07:01 DEBUG: Finished Request
+2022-04-19 17:07:01 DEBUG: Finished Request
+2022-04-19 17:07:01 DEBUG: POST http://localhost:8130/session/2efdaab6b6225164a3b380e61a758950/element {"using": "xpath", "value": "//*[@id=\"wqe\"]"}
+2022-04-19 17:07:01 DEBUG: POST http://localhost:8130/session/2efdaab6b6225164a3b380e61a758950/element {"using": "xpath", "value": "//*[@id=\"wqe\"]"}
+2022-04-19 17:07:01 DEBUG: http://localhost:8130 "POST /session/2efdaab6b6225164a3b380e61a758950/element HTTP/1.1" 404 1023
+2022-04-19 17:07:01 DEBUG: http://localhost:8130 "POST /session/2efdaab6b6225164a3b380e61a758950/element HTTP/1.1" 404 1023
+2022-04-19 17:07:01 DEBUG: Finished Request
+2022-04-19 17:07:01 DEBUG: Finished Request
+2022-04-19 17:07:02 DEBUG: POST http://localhost:8130/session/2efdaab6b6225164a3b380e61a758950/element {"using": "xpath", "value": "//*[@id=\"wqe\"]"}
+2022-04-19 17:07:02 DEBUG: POST http://localhost:8130/session/2efdaab6b6225164a3b380e61a758950/element {"using": "xpath", "value": "//*[@id=\"wqe\"]"}
+2022-04-19 17:07:02 DEBUG: http://localhost:8130 "POST /session/2efdaab6b6225164a3b380e61a758950/element HTTP/1.1" 404 1023
+2022-04-19 17:07:02 DEBUG: http://localhost:8130 "POST /session/2efdaab6b6225164a3b380e61a758950/element HTTP/1.1" 404 1023
+2022-04-19 17:07:02 DEBUG: Finished Request
+2022-04-19 17:07:02 DEBUG: Finished Request
+2022-04-19 17:07:02 DEBUG: POST http://localhost:8130/session/2efdaab6b6225164a3b380e61a758950/element {"using": "xpath", "value": "//*[@id=\"wqe\"]"}
+2022-04-19 17:07:02 DEBUG: POST http://localhost:8130/session/2efdaab6b6225164a3b380e61a758950/element {"using": "xpath", "value": "//*[@id=\"wqe\"]"}
+2022-04-19 17:07:02 DEBUG: http://localhost:8130 "POST /session/2efdaab6b6225164a3b380e61a758950/element HTTP/1.1" 404 1023
+2022-04-19 17:07:02 DEBUG: http://localhost:8130 "POST /session/2efdaab6b6225164a3b380e61a758950/element HTTP/1.1" 404 1023
+2022-04-19 17:07:02 DEBUG: Finished Request
+2022-04-19 17:07:02 DEBUG: Finished Request
+2022-04-19 17:07:03 ERROR: 执行步骤：输入 失败
+2022-04-19 17:07:03 ERROR: 执行步骤：输入 失败
+2022-04-19 17:07:03 ERROR: Message: 
+Stacktrace:
+Backtrace:
+	Ordinal0 [0x00347413+2389011]
+	Ordinal0 [0x002D9F61+1941345]
+	Ordinal0 [0x001CC658+837208]
+	Ordinal0 [0x001F91DD+1020381]
+	Ordinal0 [0x001F949B+1021083]
+	Ordinal0 [0x00226032+1204274]
+	Ordinal0 [0x00214194+1130900]
+	Ordinal0 [0x00224302+1196802]
+	Ordinal0 [0x00213F66+1130342]
+	Ordinal0 [0x001EE546+976198]
+	Ordinal0 [0x001EF456+980054]
+	GetHandleVerifier [0x004F9632+1727522]
+	GetHandleVerifier [0x005ABA4D+2457661]
+	GetHandleVerifier [0x003DEB81+569713]
+	GetHandleVerifier [0x003DDD76+566118]
+	Ordinal0 [0x002E0B2B+1968939]
+	Ordinal0 [0x002E5988+1989000]
+	Ordinal0 [0x002E5A75+1989237]
+	Ordinal0 [0x002EECB1+2026673]
+	BaseThreadInitThunk [0x76D1FA29+25]
+	RtlGetAppContainerNamedObjectPath [0x77377A7E+286]
+	RtlGetAppContainerNamedObjectPath [0x77377A4E+238]
+
+2022-04-19 17:07:03 ERROR: Message: 
+Stacktrace:
+Backtrace:
+	Ordinal0 [0x00347413+2389011]
+	Ordinal0 [0x002D9F61+1941345]
+	Ordinal0 [0x001CC658+837208]
+	Ordinal0 [0x001F91DD+1020381]
+	Ordinal0 [0x001F949B+1021083]
+	Ordinal0 [0x00226032+1204274]
+	Ordinal0 [0x00214194+1130900]
+	Ordinal0 [0x00224302+1196802]
+	Ordinal0 [0x00213F66+1130342]
+	Ordinal0 [0x001EE546+976198]
+	Ordinal0 [0x001EF456+980054]
+	GetHandleVerifier [0x004F9632+1727522]
+	GetHandleVerifier [0x005ABA4D+2457661]
+	GetHandleVerifier [0x003DEB81+569713]
+	GetHandleVerifier [0x003DDD76+566118]
+	Ordinal0 [0x002E0B2B+1968939]
+	Ordinal0 [0x002E5988+1989000]
+	Ordinal0 [0x002E5A75+1989237]
+	Ordinal0 [0x002EECB1+2026673]
+	BaseThreadInitThunk [0x76D1FA29+25]
+	RtlGetAppContainerNamedObjectPath [0x77377A7E+286]
+	RtlGetAppContainerNamedObjectPath [0x77377A4E+238]
+
+2022-04-19 17:07:03 DEBUG: DELETE http://localhost:8130/session/2efdaab6b6225164a3b380e61a758950 {}
+2022-04-19 17:07:03 DEBUG: DELETE http://localhost:8130/session/2efdaab6b6225164a3b380e61a758950 {}
+2022-04-19 17:07:03 DEBUG: http://localhost:8130 "DELETE /session/2efdaab6b6225164a3b380e61a758950 HTTP/1.1" 200 14
+2022-04-19 17:07:03 DEBUG: http://localhost:8130 "DELETE /session/2efdaab6b6225164a3b380e61a758950 HTTP/1.1" 200 14
+2022-04-19 17:07:03 DEBUG: Finished Request
+2022-04-19 17:07:03 DEBUG: Finished Request
+2022-04-19 17:07:06 DEBUG: POST http://localhost:8203/session {"capabilities": {"firstMatch": [{}], "alwaysMatch": {"browserName": "chrome", "pageLoadStrategy": "normal", "goog:chromeOptions": {"excludeSwitches": ["enable-automation"], "prefs": {"credentials_enable_service": false, "profile.password_manager_enable": false}, "extensions": [], "args": ["start-maximized", "--no-sandbox", "--kiosk-printing"]}}}, "desiredCapabilities": {"browserName": "chrome", "pageLoadStrategy": "normal", "goog:chromeOptions": {"excludeSwitches": ["enable-automation"], "prefs": {"credentials_enable_service": false, "profile.password_manager_enable": false}, "extensions": [], "args": ["start-maximized", "--no-sandbox", "--kiosk-printing"]}}}
+2022-04-19 17:07:06 DEBUG: POST http://localhost:8203/session {"capabilities": {"firstMatch": [{}], "alwaysMatch": {"browserName": "chrome", "pageLoadStrategy": "normal", "goog:chromeOptions": {"excludeSwitches": ["enable-automation"], "prefs": {"credentials_enable_service": false, "profile.password_manager_enable": false}, "extensions": [], "args": ["start-maximized", "--no-sandbox", "--kiosk-printing"]}}}, "desiredCapabilities": {"browserName": "chrome", "pageLoadStrategy": "normal", "goog:chromeOptions": {"excludeSwitches": ["enable-automation"], "prefs": {"credentials_enable_service": false, "profile.password_manager_enable": false}, "extensions": [], "args": ["start-maximized", "--no-sandbox", "--kiosk-printing"]}}}
+2022-04-19 17:07:06 DEBUG: Starting new HTTP connection (1): localhost:8203
+2022-04-19 17:07:06 DEBUG: Starting new HTTP connection (1): localhost:8203
+2022-04-19 17:07:07 DEBUG: http://localhost:8203 "POST /session HTTP/1.1" 200 793
+2022-04-19 17:07:07 DEBUG: http://localhost:8203 "POST /session HTTP/1.1" 200 793
+2022-04-19 17:07:07 DEBUG: Finished Request
+2022-04-19 17:07:07 DEBUG: Finished Request
+2022-04-19 17:07:07 DEBUG: 执行sheet页：查询2
+2022-04-19 17:07:07 DEBUG: 执行sheet页：查询2
+2022-04-19 17:07:07 DEBUG: 执行sheet页：查询2
+2022-04-19 17:07:07 DEBUG: 执行步骤：打开网页
+2022-04-19 17:07:07 DEBUG: 执行步骤：打开网页
+2022-04-19 17:07:07 DEBUG: 执行步骤：打开网页
+2022-04-19 17:07:07 DEBUG: POST http://localhost:8203/session/5d2e0797206e234ec27e5f1259f86cbe/url {"url": "http://www.baidu.com"}
+2022-04-19 17:07:07 DEBUG: POST http://localhost:8203/session/5d2e0797206e234ec27e5f1259f86cbe/url {"url": "http://www.baidu.com"}
+2022-04-19 17:07:07 DEBUG: POST http://localhost:8203/session/5d2e0797206e234ec27e5f1259f86cbe/url {"url": "http://www.baidu.com"}
+2022-04-19 17:07:08 DEBUG: http://localhost:8203 "POST /session/5d2e0797206e234ec27e5f1259f86cbe/url HTTP/1.1" 200 14
+2022-04-19 17:07:08 DEBUG: http://localhost:8203 "POST /session/5d2e0797206e234ec27e5f1259f86cbe/url HTTP/1.1" 200 14
+2022-04-19 17:07:08 DEBUG: http://localhost:8203 "POST /session/5d2e0797206e234ec27e5f1259f86cbe/url HTTP/1.1" 200 14
+2022-04-19 17:07:08 DEBUG: Finished Request
+2022-04-19 17:07:08 DEBUG: Finished Request
+2022-04-19 17:07:08 DEBUG: Finished Request
+2022-04-19 17:07:08 DEBUG: 执行步骤：等待
+2022-04-19 17:07:08 DEBUG: 执行步骤：等待
+2022-04-19 17:07:08 DEBUG: 执行步骤：等待
+2022-04-19 17:07:09 DEBUG: 执行步骤：输入
+2022-04-19 17:07:09 DEBUG: 执行步骤：输入
+2022-04-19 17:07:09 DEBUG: 执行步骤：输入
+2022-04-19 17:07:09 DEBUG: POST http://localhost:8203/session/5d2e0797206e234ec27e5f1259f86cbe/element {"using": "xpath", "value": "//*[@id=\"wqe\"]"}
+2022-04-19 17:07:09 DEBUG: POST http://localhost:8203/session/5d2e0797206e234ec27e5f1259f86cbe/element {"using": "xpath", "value": "//*[@id=\"wqe\"]"}
+2022-04-19 17:07:09 DEBUG: POST http://localhost:8203/session/5d2e0797206e234ec27e5f1259f86cbe/element {"using": "xpath", "value": "//*[@id=\"wqe\"]"}
+2022-04-19 17:07:09 DEBUG: http://localhost:8203 "POST /session/5d2e0797206e234ec27e5f1259f86cbe/element HTTP/1.1" 404 1023
+2022-04-19 17:07:09 DEBUG: http://localhost:8203 "POST /session/5d2e0797206e234ec27e5f1259f86cbe/element HTTP/1.1" 404 1023
+2022-04-19 17:07:09 DEBUG: http://localhost:8203 "POST /session/5d2e0797206e234ec27e5f1259f86cbe/element HTTP/1.1" 404 1023
+2022-04-19 17:07:09 DEBUG: Finished Request
+2022-04-19 17:07:09 DEBUG: Finished Request
+2022-04-19 17:07:09 DEBUG: Finished Request
+2022-04-19 17:07:10 DEBUG: POST http://localhost:8203/session/5d2e0797206e234ec27e5f1259f86cbe/element {"using": "xpath", "value": "//*[@id=\"wqe\"]"}
+2022-04-19 17:07:10 DEBUG: POST http://localhost:8203/session/5d2e0797206e234ec27e5f1259f86cbe/element {"using": "xpath", "value": "//*[@id=\"wqe\"]"}
+2022-04-19 17:07:10 DEBUG: POST http://localhost:8203/session/5d2e0797206e234ec27e5f1259f86cbe/element {"using": "xpath", "value": "//*[@id=\"wqe\"]"}
+2022-04-19 17:07:10 DEBUG: http://localhost:8203 "POST /session/5d2e0797206e234ec27e5f1259f86cbe/element HTTP/1.1" 404 1023
+2022-04-19 17:07:10 DEBUG: http://localhost:8203 "POST /session/5d2e0797206e234ec27e5f1259f86cbe/element HTTP/1.1" 404 1023
+2022-04-19 17:07:10 DEBUG: http://localhost:8203 "POST /session/5d2e0797206e234ec27e5f1259f86cbe/element HTTP/1.1" 404 1023
+2022-04-19 17:07:10 DEBUG: Finished Request
+2022-04-19 17:07:10 DEBUG: Finished Request
+2022-04-19 17:07:10 DEBUG: Finished Request
+2022-04-19 17:07:10 DEBUG: POST http://localhost:8203/session/5d2e0797206e234ec27e5f1259f86cbe/element {"using": "xpath", "value": "//*[@id=\"wqe\"]"}
+2022-04-19 17:07:10 DEBUG: POST http://localhost:8203/session/5d2e0797206e234ec27e5f1259f86cbe/element {"using": "xpath", "value": "//*[@id=\"wqe\"]"}
+2022-04-19 17:07:10 DEBUG: POST http://localhost:8203/session/5d2e0797206e234ec27e5f1259f86cbe/element {"using": "xpath", "value": "//*[@id=\"wqe\"]"}
+2022-04-19 17:07:10 DEBUG: http://localhost:8203 "POST /session/5d2e0797206e234ec27e5f1259f86cbe/element HTTP/1.1" 404 1023
+2022-04-19 17:07:10 DEBUG: http://localhost:8203 "POST /session/5d2e0797206e234ec27e5f1259f86cbe/element HTTP/1.1" 404 1023
+2022-04-19 17:07:10 DEBUG: http://localhost:8203 "POST /session/5d2e0797206e234ec27e5f1259f86cbe/element HTTP/1.1" 404 1023
+2022-04-19 17:07:10 DEBUG: Finished Request
+2022-04-19 17:07:10 DEBUG: Finished Request
+2022-04-19 17:07:10 DEBUG: Finished Request
+2022-04-19 17:07:11 DEBUG: POST http://localhost:8203/session/5d2e0797206e234ec27e5f1259f86cbe/element {"using": "xpath", "value": "//*[@id=\"wqe\"]"}
+2022-04-19 17:07:11 DEBUG: POST http://localhost:8203/session/5d2e0797206e234ec27e5f1259f86cbe/element {"using": "xpath", "value": "//*[@id=\"wqe\"]"}
+2022-04-19 17:07:11 DEBUG: POST http://localhost:8203/session/5d2e0797206e234ec27e5f1259f86cbe/element {"using": "xpath", "value": "//*[@id=\"wqe\"]"}
+2022-04-19 17:07:11 DEBUG: http://localhost:8203 "POST /session/5d2e0797206e234ec27e5f1259f86cbe/element HTTP/1.1" 404 1023
+2022-04-19 17:07:11 DEBUG: http://localhost:8203 "POST /session/5d2e0797206e234ec27e5f1259f86cbe/element HTTP/1.1" 404 1023
+2022-04-19 17:07:11 DEBUG: http://localhost:8203 "POST /session/5d2e0797206e234ec27e5f1259f86cbe/element HTTP/1.1" 404 1023
+2022-04-19 17:07:11 DEBUG: Finished Request
+2022-04-19 17:07:11 DEBUG: Finished Request
+2022-04-19 17:07:11 DEBUG: Finished Request
+2022-04-19 17:07:11 DEBUG: POST http://localhost:8203/session/5d2e0797206e234ec27e5f1259f86cbe/element {"using": "xpath", "value": "//*[@id=\"wqe\"]"}
+2022-04-19 17:07:11 DEBUG: POST http://localhost:8203/session/5d2e0797206e234ec27e5f1259f86cbe/element {"using": "xpath", "value": "//*[@id=\"wqe\"]"}
+2022-04-19 17:07:11 DEBUG: POST http://localhost:8203/session/5d2e0797206e234ec27e5f1259f86cbe/element {"using": "xpath", "value": "//*[@id=\"wqe\"]"}
+2022-04-19 17:07:11 DEBUG: http://localhost:8203 "POST /session/5d2e0797206e234ec27e5f1259f86cbe/element HTTP/1.1" 404 1023
+2022-04-19 17:07:11 DEBUG: http://localhost:8203 "POST /session/5d2e0797206e234ec27e5f1259f86cbe/element HTTP/1.1" 404 1023
+2022-04-19 17:07:11 DEBUG: http://localhost:8203 "POST /session/5d2e0797206e234ec27e5f1259f86cbe/element HTTP/1.1" 404 1023
+2022-04-19 17:07:11 DEBUG: Finished Request
+2022-04-19 17:07:11 DEBUG: Finished Request
+2022-04-19 17:07:11 DEBUG: Finished Request
+2022-04-19 17:07:12 DEBUG: POST http://localhost:8203/session/5d2e0797206e234ec27e5f1259f86cbe/element {"using": "xpath", "value": "//*[@id=\"wqe\"]"}
+2022-04-19 17:07:12 DEBUG: POST http://localhost:8203/session/5d2e0797206e234ec27e5f1259f86cbe/element {"using": "xpath", "value": "//*[@id=\"wqe\"]"}
+2022-04-19 17:07:12 DEBUG: POST http://localhost:8203/session/5d2e0797206e234ec27e5f1259f86cbe/element {"using": "xpath", "value": "//*[@id=\"wqe\"]"}
+2022-04-19 17:07:12 DEBUG: http://localhost:8203 "POST /session/5d2e0797206e234ec27e5f1259f86cbe/element HTTP/1.1" 404 1023
+2022-04-19 17:07:12 DEBUG: http://localhost:8203 "POST /session/5d2e0797206e234ec27e5f1259f86cbe/element HTTP/1.1" 404 1023
+2022-04-19 17:07:12 DEBUG: http://localhost:8203 "POST /session/5d2e0797206e234ec27e5f1259f86cbe/element HTTP/1.1" 404 1023
+2022-04-19 17:07:12 DEBUG: Finished Request
+2022-04-19 17:07:12 DEBUG: Finished Request
+2022-04-19 17:07:12 DEBUG: Finished Request
+2022-04-19 17:07:12 DEBUG: POST http://localhost:8203/session/5d2e0797206e234ec27e5f1259f86cbe/element {"using": "xpath", "value": "//*[@id=\"wqe\"]"}
+2022-04-19 17:07:12 DEBUG: POST http://localhost:8203/session/5d2e0797206e234ec27e5f1259f86cbe/element {"using": "xpath", "value": "//*[@id=\"wqe\"]"}
+2022-04-19 17:07:12 DEBUG: POST http://localhost:8203/session/5d2e0797206e234ec27e5f1259f86cbe/element {"using": "xpath", "value": "//*[@id=\"wqe\"]"}
+2022-04-19 17:07:12 DEBUG: http://localhost:8203 "POST /session/5d2e0797206e234ec27e5f1259f86cbe/element HTTP/1.1" 404 1023
+2022-04-19 17:07:12 DEBUG: http://localhost:8203 "POST /session/5d2e0797206e234ec27e5f1259f86cbe/element HTTP/1.1" 404 1023
+2022-04-19 17:07:12 DEBUG: http://localhost:8203 "POST /session/5d2e0797206e234ec27e5f1259f86cbe/element HTTP/1.1" 404 1023
+2022-04-19 17:07:12 DEBUG: Finished Request
+2022-04-19 17:07:12 DEBUG: Finished Request
+2022-04-19 17:07:12 DEBUG: Finished Request
+2022-04-19 17:07:13 DEBUG: POST http://localhost:8203/session/5d2e0797206e234ec27e5f1259f86cbe/element {"using": "xpath", "value": "//*[@id=\"wqe\"]"}
+2022-04-19 17:07:13 DEBUG: POST http://localhost:8203/session/5d2e0797206e234ec27e5f1259f86cbe/element {"using": "xpath", "value": "//*[@id=\"wqe\"]"}
+2022-04-19 17:07:13 DEBUG: POST http://localhost:8203/session/5d2e0797206e234ec27e5f1259f86cbe/element {"using": "xpath", "value": "//*[@id=\"wqe\"]"}
+2022-04-19 17:07:13 DEBUG: http://localhost:8203 "POST /session/5d2e0797206e234ec27e5f1259f86cbe/element HTTP/1.1" 404 1023
+2022-04-19 17:07:13 DEBUG: http://localhost:8203 "POST /session/5d2e0797206e234ec27e5f1259f86cbe/element HTTP/1.1" 404 1023
+2022-04-19 17:07:13 DEBUG: http://localhost:8203 "POST /session/5d2e0797206e234ec27e5f1259f86cbe/element HTTP/1.1" 404 1023
+2022-04-19 17:07:13 DEBUG: Finished Request
+2022-04-19 17:07:13 DEBUG: Finished Request
+2022-04-19 17:07:13 DEBUG: Finished Request
+2022-04-19 17:07:13 DEBUG: POST http://localhost:8203/session/5d2e0797206e234ec27e5f1259f86cbe/element {"using": "xpath", "value": "//*[@id=\"wqe\"]"}
+2022-04-19 17:07:13 DEBUG: POST http://localhost:8203/session/5d2e0797206e234ec27e5f1259f86cbe/element {"using": "xpath", "value": "//*[@id=\"wqe\"]"}
+2022-04-19 17:07:13 DEBUG: POST http://localhost:8203/session/5d2e0797206e234ec27e5f1259f86cbe/element {"using": "xpath", "value": "//*[@id=\"wqe\"]"}
+2022-04-19 17:07:13 DEBUG: http://localhost:8203 "POST /session/5d2e0797206e234ec27e5f1259f86cbe/element HTTP/1.1" 404 1023
+2022-04-19 17:07:13 DEBUG: http://localhost:8203 "POST /session/5d2e0797206e234ec27e5f1259f86cbe/element HTTP/1.1" 404 1023
+2022-04-19 17:07:13 DEBUG: http://localhost:8203 "POST /session/5d2e0797206e234ec27e5f1259f86cbe/element HTTP/1.1" 404 1023
+2022-04-19 17:07:13 DEBUG: Finished Request
+2022-04-19 17:07:13 DEBUG: Finished Request
+2022-04-19 17:07:13 DEBUG: Finished Request
+2022-04-19 17:07:14 DEBUG: POST http://localhost:8203/session/5d2e0797206e234ec27e5f1259f86cbe/element {"using": "xpath", "value": "//*[@id=\"wqe\"]"}
+2022-04-19 17:07:14 DEBUG: POST http://localhost:8203/session/5d2e0797206e234ec27e5f1259f86cbe/element {"using": "xpath", "value": "//*[@id=\"wqe\"]"}
+2022-04-19 17:07:14 DEBUG: POST http://localhost:8203/session/5d2e0797206e234ec27e5f1259f86cbe/element {"using": "xpath", "value": "//*[@id=\"wqe\"]"}
+2022-04-19 17:07:14 DEBUG: http://localhost:8203 "POST /session/5d2e0797206e234ec27e5f1259f86cbe/element HTTP/1.1" 404 1023
+2022-04-19 17:07:14 DEBUG: http://localhost:8203 "POST /session/5d2e0797206e234ec27e5f1259f86cbe/element HTTP/1.1" 404 1023
+2022-04-19 17:07:14 DEBUG: http://localhost:8203 "POST /session/5d2e0797206e234ec27e5f1259f86cbe/element HTTP/1.1" 404 1023
+2022-04-19 17:07:14 DEBUG: Finished Request
+2022-04-19 17:07:14 DEBUG: Finished Request
+2022-04-19 17:07:14 DEBUG: Finished Request
+2022-04-19 17:07:14 DEBUG: POST http://localhost:8203/session/5d2e0797206e234ec27e5f1259f86cbe/element {"using": "xpath", "value": "//*[@id=\"wqe\"]"}
+2022-04-19 17:07:14 DEBUG: POST http://localhost:8203/session/5d2e0797206e234ec27e5f1259f86cbe/element {"using": "xpath", "value": "//*[@id=\"wqe\"]"}
+2022-04-19 17:07:14 DEBUG: POST http://localhost:8203/session/5d2e0797206e234ec27e5f1259f86cbe/element {"using": "xpath", "value": "//*[@id=\"wqe\"]"}
+2022-04-19 17:07:14 DEBUG: http://localhost:8203 "POST /session/5d2e0797206e234ec27e5f1259f86cbe/element HTTP/1.1" 404 1023
+2022-04-19 17:07:14 DEBUG: http://localhost:8203 "POST /session/5d2e0797206e234ec27e5f1259f86cbe/element HTTP/1.1" 404 1023
+2022-04-19 17:07:14 DEBUG: http://localhost:8203 "POST /session/5d2e0797206e234ec27e5f1259f86cbe/element HTTP/1.1" 404 1023
+2022-04-19 17:07:14 DEBUG: Finished Request
+2022-04-19 17:07:14 DEBUG: Finished Request
+2022-04-19 17:07:14 DEBUG: Finished Request
+2022-04-19 17:07:15 DEBUG: POST http://localhost:8203/session/5d2e0797206e234ec27e5f1259f86cbe/element {"using": "xpath", "value": "//*[@id=\"wqe\"]"}
+2022-04-19 17:07:15 DEBUG: POST http://localhost:8203/session/5d2e0797206e234ec27e5f1259f86cbe/element {"using": "xpath", "value": "//*[@id=\"wqe\"]"}
+2022-04-19 17:07:15 DEBUG: POST http://localhost:8203/session/5d2e0797206e234ec27e5f1259f86cbe/element {"using": "xpath", "value": "//*[@id=\"wqe\"]"}
+2022-04-19 17:07:15 DEBUG: http://localhost:8203 "POST /session/5d2e0797206e234ec27e5f1259f86cbe/element HTTP/1.1" 404 1023
+2022-04-19 17:07:15 DEBUG: http://localhost:8203 "POST /session/5d2e0797206e234ec27e5f1259f86cbe/element HTTP/1.1" 404 1023
+2022-04-19 17:07:15 DEBUG: http://localhost:8203 "POST /session/5d2e0797206e234ec27e5f1259f86cbe/element HTTP/1.1" 404 1023
+2022-04-19 17:07:15 DEBUG: Finished Request
+2022-04-19 17:07:15 DEBUG: Finished Request
+2022-04-19 17:07:15 DEBUG: Finished Request
+2022-04-19 17:07:15 ERROR: 执行步骤：输入 失败
+2022-04-19 17:07:15 ERROR: 执行步骤：输入 失败
+2022-04-19 17:07:15 ERROR: 执行步骤：输入 失败
+2022-04-19 17:07:15 ERROR: Message: 
+Stacktrace:
+Backtrace:
+	Ordinal0 [0x00347413+2389011]
+	Ordinal0 [0x002D9F61+1941345]
+	Ordinal0 [0x001CC658+837208]
+	Ordinal0 [0x001F91DD+1020381]
+	Ordinal0 [0x001F949B+1021083]
+	Ordinal0 [0x00226032+1204274]
+	Ordinal0 [0x00214194+1130900]
+	Ordinal0 [0x00224302+1196802]
+	Ordinal0 [0x00213F66+1130342]
+	Ordinal0 [0x001EE546+976198]
+	Ordinal0 [0x001EF456+980054]
+	GetHandleVerifier [0x004F9632+1727522]
+	GetHandleVerifier [0x005ABA4D+2457661]
+	GetHandleVerifier [0x003DEB81+569713]
+	GetHandleVerifier [0x003DDD76+566118]
+	Ordinal0 [0x002E0B2B+1968939]
+	Ordinal0 [0x002E5988+1989000]
+	Ordinal0 [0x002E5A75+1989237]
+	Ordinal0 [0x002EECB1+2026673]
+	BaseThreadInitThunk [0x76D1FA29+25]
+	RtlGetAppContainerNamedObjectPath [0x77377A7E+286]
+	RtlGetAppContainerNamedObjectPath [0x77377A4E+238]
+
+2022-04-19 17:07:15 ERROR: Message: 
+Stacktrace:
+Backtrace:
+	Ordinal0 [0x00347413+2389011]
+	Ordinal0 [0x002D9F61+1941345]
+	Ordinal0 [0x001CC658+837208]
+	Ordinal0 [0x001F91DD+1020381]
+	Ordinal0 [0x001F949B+1021083]
+	Ordinal0 [0x00226032+1204274]
+	Ordinal0 [0x00214194+1130900]
+	Ordinal0 [0x00224302+1196802]
+	Ordinal0 [0x00213F66+1130342]
+	Ordinal0 [0x001EE546+976198]
+	Ordinal0 [0x001EF456+980054]
+	GetHandleVerifier [0x004F9632+1727522]
+	GetHandleVerifier [0x005ABA4D+2457661]
+	GetHandleVerifier [0x003DEB81+569713]
+	GetHandleVerifier [0x003DDD76+566118]
+	Ordinal0 [0x002E0B2B+1968939]
+	Ordinal0 [0x002E5988+1989000]
+	Ordinal0 [0x002E5A75+1989237]
+	Ordinal0 [0x002EECB1+2026673]
+	BaseThreadInitThunk [0x76D1FA29+25]
+	RtlGetAppContainerNamedObjectPath [0x77377A7E+286]
+	RtlGetAppContainerNamedObjectPath [0x77377A4E+238]
+
+2022-04-19 17:07:15 ERROR: Message: 
+Stacktrace:
+Backtrace:
+	Ordinal0 [0x00347413+2389011]
+	Ordinal0 [0x002D9F61+1941345]
+	Ordinal0 [0x001CC658+837208]
+	Ordinal0 [0x001F91DD+1020381]
+	Ordinal0 [0x001F949B+1021083]
+	Ordinal0 [0x00226032+1204274]
+	Ordinal0 [0x00214194+1130900]
+	Ordinal0 [0x00224302+1196802]
+	Ordinal0 [0x00213F66+1130342]
+	Ordinal0 [0x001EE546+976198]
+	Ordinal0 [0x001EF456+980054]
+	GetHandleVerifier [0x004F9632+1727522]
+	GetHandleVerifier [0x005ABA4D+2457661]
+	GetHandleVerifier [0x003DEB81+569713]
+	GetHandleVerifier [0x003DDD76+566118]
+	Ordinal0 [0x002E0B2B+1968939]
+	Ordinal0 [0x002E5988+1989000]
+	Ordinal0 [0x002E5A75+1989237]
+	Ordinal0 [0x002EECB1+2026673]
+	BaseThreadInitThunk [0x76D1FA29+25]
+	RtlGetAppContainerNamedObjectPath [0x77377A7E+286]
+	RtlGetAppContainerNamedObjectPath [0x77377A4E+238]
+
+2022-04-19 17:07:15 DEBUG: DELETE http://localhost:8203/session/5d2e0797206e234ec27e5f1259f86cbe {}
+2022-04-19 17:07:15 DEBUG: DELETE http://localhost:8203/session/5d2e0797206e234ec27e5f1259f86cbe {}
+2022-04-19 17:07:15 DEBUG: DELETE http://localhost:8203/session/5d2e0797206e234ec27e5f1259f86cbe {}
+2022-04-19 17:07:16 DEBUG: http://localhost:8203 "DELETE /session/5d2e0797206e234ec27e5f1259f86cbe HTTP/1.1" 200 14
+2022-04-19 17:07:16 DEBUG: http://localhost:8203 "DELETE /session/5d2e0797206e234ec27e5f1259f86cbe HTTP/1.1" 200 14
+2022-04-19 17:07:16 DEBUG: http://localhost:8203 "DELETE /session/5d2e0797206e234ec27e5f1259f86cbe HTTP/1.1" 200 14
+2022-04-19 17:07:16 DEBUG: Finished Request
+2022-04-19 17:07:16 DEBUG: Finished Request
+2022-04-19 17:07:16 DEBUG: Finished Request
+2022-04-19 17:07:18 DEBUG: POST http://localhost:8273/session {"capabilities": {"firstMatch": [{}], "alwaysMatch": {"browserName": "chrome", "pageLoadStrategy": "normal", "goog:chromeOptions": {"excludeSwitches": ["enable-automation"], "prefs": {"credentials_enable_service": false, "profile.password_manager_enable": false}, "extensions": [], "args": ["start-maximized", "--no-sandbox", "--kiosk-printing"]}}}, "desiredCapabilities": {"browserName": "chrome", "pageLoadStrategy": "normal", "goog:chromeOptions": {"excludeSwitches": ["enable-automation"], "prefs": {"credentials_enable_service": false, "profile.password_manager_enable": false}, "extensions": [], "args": ["start-maximized", "--no-sandbox", "--kiosk-printing"]}}}
+2022-04-19 17:07:18 DEBUG: POST http://localhost:8273/session {"capabilities": {"firstMatch": [{}], "alwaysMatch": {"browserName": "chrome", "pageLoadStrategy": "normal", "goog:chromeOptions": {"excludeSwitches": ["enable-automation"], "prefs": {"credentials_enable_service": false, "profile.password_manager_enable": false}, "extensions": [], "args": ["start-maximized", "--no-sandbox", "--kiosk-printing"]}}}, "desiredCapabilities": {"browserName": "chrome", "pageLoadStrategy": "normal", "goog:chromeOptions": {"excludeSwitches": ["enable-automation"], "prefs": {"credentials_enable_service": false, "profile.password_manager_enable": false}, "extensions": [], "args": ["start-maximized", "--no-sandbox", "--kiosk-printing"]}}}
+2022-04-19 17:07:18 DEBUG: POST http://localhost:8273/session {"capabilities": {"firstMatch": [{}], "alwaysMatch": {"browserName": "chrome", "pageLoadStrategy": "normal", "goog:chromeOptions": {"excludeSwitches": ["enable-automation"], "prefs": {"credentials_enable_service": false, "profile.password_manager_enable": false}, "extensions": [], "args": ["start-maximized", "--no-sandbox", "--kiosk-printing"]}}}, "desiredCapabilities": {"browserName": "chrome", "pageLoadStrategy": "normal", "goog:chromeOptions": {"excludeSwitches": ["enable-automation"], "prefs": {"credentials_enable_service": false, "profile.password_manager_enable": false}, "extensions": [], "args": ["start-maximized", "--no-sandbox", "--kiosk-printing"]}}}
+2022-04-19 17:07:18 DEBUG: Starting new HTTP connection (1): localhost:8273
+2022-04-19 17:07:18 DEBUG: Starting new HTTP connection (1): localhost:8273
+2022-04-19 17:07:18 DEBUG: Starting new HTTP connection (1): localhost:8273
+2022-04-19 17:07:20 DEBUG: http://localhost:8273 "POST /session HTTP/1.1" 200 791
+2022-04-19 17:07:20 DEBUG: http://localhost:8273 "POST /session HTTP/1.1" 200 791
+2022-04-19 17:07:20 DEBUG: http://localhost:8273 "POST /session HTTP/1.1" 200 791
+2022-04-19 17:07:20 DEBUG: Finished Request
+2022-04-19 17:07:20 DEBUG: Finished Request
+2022-04-19 17:07:20 DEBUG: Finished Request
+2022-04-19 17:07:20 DEBUG: 执行sheet页：查询2
+2022-04-19 17:07:20 DEBUG: 执行sheet页：查询2
+2022-04-19 17:07:20 DEBUG: 执行sheet页：查询2
+2022-04-19 17:07:20 DEBUG: 执行sheet页：查询2
+2022-04-19 17:07:20 DEBUG: 执行步骤：打开网页
+2022-04-19 17:07:20 DEBUG: 执行步骤：打开网页
+2022-04-19 17:07:20 DEBUG: 执行步骤：打开网页
+2022-04-19 17:07:20 DEBUG: 执行步骤：打开网页
+2022-04-19 17:07:20 DEBUG: POST http://localhost:8273/session/9b31917aa02104fea4e22b54e5e76dfa/url {"url": "http://www.baidu.com"}
+2022-04-19 17:07:20 DEBUG: POST http://localhost:8273/session/9b31917aa02104fea4e22b54e5e76dfa/url {"url": "http://www.baidu.com"}
+2022-04-19 17:07:20 DEBUG: POST http://localhost:8273/session/9b31917aa02104fea4e22b54e5e76dfa/url {"url": "http://www.baidu.com"}
+2022-04-19 17:07:20 DEBUG: POST http://localhost:8273/session/9b31917aa02104fea4e22b54e5e76dfa/url {"url": "http://www.baidu.com"}
+2022-04-19 17:07:21 DEBUG: http://localhost:8273 "POST /session/9b31917aa02104fea4e22b54e5e76dfa/url HTTP/1.1" 200 14
+2022-04-19 17:07:21 DEBUG: http://localhost:8273 "POST /session/9b31917aa02104fea4e22b54e5e76dfa/url HTTP/1.1" 200 14
+2022-04-19 17:07:21 DEBUG: http://localhost:8273 "POST /session/9b31917aa02104fea4e22b54e5e76dfa/url HTTP/1.1" 200 14
+2022-04-19 17:07:21 DEBUG: http://localhost:8273 "POST /session/9b31917aa02104fea4e22b54e5e76dfa/url HTTP/1.1" 200 14
+2022-04-19 17:07:21 DEBUG: Finished Request
+2022-04-19 17:07:21 DEBUG: Finished Request
+2022-04-19 17:07:21 DEBUG: Finished Request
+2022-04-19 17:07:21 DEBUG: Finished Request
+2022-04-19 17:07:21 DEBUG: 执行步骤：等待
+2022-04-19 17:07:21 DEBUG: 执行步骤：等待
+2022-04-19 17:07:21 DEBUG: 执行步骤：等待
+2022-04-19 17:07:21 DEBUG: 执行步骤：等待
+2022-04-19 17:07:22 DEBUG: 执行步骤：输入
+2022-04-19 17:07:22 DEBUG: 执行步骤：输入
+2022-04-19 17:07:22 DEBUG: 执行步骤：输入
+2022-04-19 17:07:22 DEBUG: 执行步骤：输入
+2022-04-19 17:07:22 DEBUG: POST http://localhost:8273/session/9b31917aa02104fea4e22b54e5e76dfa/element {"using": "xpath", "value": "//*[@id=\"wqe\"]"}
+2022-04-19 17:07:22 DEBUG: POST http://localhost:8273/session/9b31917aa02104fea4e22b54e5e76dfa/element {"using": "xpath", "value": "//*[@id=\"wqe\"]"}
+2022-04-19 17:07:22 DEBUG: POST http://localhost:8273/session/9b31917aa02104fea4e22b54e5e76dfa/element {"using": "xpath", "value": "//*[@id=\"wqe\"]"}
+2022-04-19 17:07:22 DEBUG: POST http://localhost:8273/session/9b31917aa02104fea4e22b54e5e76dfa/element {"using": "xpath", "value": "//*[@id=\"wqe\"]"}
+2022-04-19 17:07:22 DEBUG: http://localhost:8273 "POST /session/9b31917aa02104fea4e22b54e5e76dfa/element HTTP/1.1" 404 1023
+2022-04-19 17:07:22 DEBUG: http://localhost:8273 "POST /session/9b31917aa02104fea4e22b54e5e76dfa/element HTTP/1.1" 404 1023
+2022-04-19 17:07:22 DEBUG: http://localhost:8273 "POST /session/9b31917aa02104fea4e22b54e5e76dfa/element HTTP/1.1" 404 1023
+2022-04-19 17:07:22 DEBUG: http://localhost:8273 "POST /session/9b31917aa02104fea4e22b54e5e76dfa/element HTTP/1.1" 404 1023
+2022-04-19 17:07:22 DEBUG: Finished Request
+2022-04-19 17:07:22 DEBUG: Finished Request
+2022-04-19 17:07:22 DEBUG: Finished Request
+2022-04-19 17:07:22 DEBUG: Finished Request
+2022-04-19 17:07:23 DEBUG: POST http://localhost:8273/session/9b31917aa02104fea4e22b54e5e76dfa/element {"using": "xpath", "value": "//*[@id=\"wqe\"]"}
+2022-04-19 17:07:23 DEBUG: POST http://localhost:8273/session/9b31917aa02104fea4e22b54e5e76dfa/element {"using": "xpath", "value": "//*[@id=\"wqe\"]"}
+2022-04-19 17:07:23 DEBUG: POST http://localhost:8273/session/9b31917aa02104fea4e22b54e5e76dfa/element {"using": "xpath", "value": "//*[@id=\"wqe\"]"}
+2022-04-19 17:07:23 DEBUG: POST http://localhost:8273/session/9b31917aa02104fea4e22b54e5e76dfa/element {"using": "xpath", "value": "//*[@id=\"wqe\"]"}
+2022-04-19 17:07:23 DEBUG: http://localhost:8273 "POST /session/9b31917aa02104fea4e22b54e5e76dfa/element HTTP/1.1" 404 1023
+2022-04-19 17:07:23 DEBUG: http://localhost:8273 "POST /session/9b31917aa02104fea4e22b54e5e76dfa/element HTTP/1.1" 404 1023
+2022-04-19 17:07:23 DEBUG: http://localhost:8273 "POST /session/9b31917aa02104fea4e22b54e5e76dfa/element HTTP/1.1" 404 1023
+2022-04-19 17:07:23 DEBUG: http://localhost:8273 "POST /session/9b31917aa02104fea4e22b54e5e76dfa/element HTTP/1.1" 404 1023
+2022-04-19 17:07:23 DEBUG: Finished Request
+2022-04-19 17:07:23 DEBUG: Finished Request
+2022-04-19 17:07:23 DEBUG: Finished Request
+2022-04-19 17:07:23 DEBUG: Finished Request
+2022-04-19 17:07:24 DEBUG: POST http://localhost:8273/session/9b31917aa02104fea4e22b54e5e76dfa/element {"using": "xpath", "value": "//*[@id=\"wqe\"]"}
+2022-04-19 17:07:24 DEBUG: POST http://localhost:8273/session/9b31917aa02104fea4e22b54e5e76dfa/element {"using": "xpath", "value": "//*[@id=\"wqe\"]"}
+2022-04-19 17:07:24 DEBUG: POST http://localhost:8273/session/9b31917aa02104fea4e22b54e5e76dfa/element {"using": "xpath", "value": "//*[@id=\"wqe\"]"}
+2022-04-19 17:07:24 DEBUG: POST http://localhost:8273/session/9b31917aa02104fea4e22b54e5e76dfa/element {"using": "xpath", "value": "//*[@id=\"wqe\"]"}
+2022-04-19 17:07:24 DEBUG: http://localhost:8273 "POST /session/9b31917aa02104fea4e22b54e5e76dfa/element HTTP/1.1" 404 1023
+2022-04-19 17:07:24 DEBUG: http://localhost:8273 "POST /session/9b31917aa02104fea4e22b54e5e76dfa/element HTTP/1.1" 404 1023
+2022-04-19 17:07:24 DEBUG: http://localhost:8273 "POST /session/9b31917aa02104fea4e22b54e5e76dfa/element HTTP/1.1" 404 1023
+2022-04-19 17:07:24 DEBUG: http://localhost:8273 "POST /session/9b31917aa02104fea4e22b54e5e76dfa/element HTTP/1.1" 404 1023
+2022-04-19 17:07:24 DEBUG: Finished Request
+2022-04-19 17:07:24 DEBUG: Finished Request
+2022-04-19 17:07:24 DEBUG: Finished Request
+2022-04-19 17:07:24 DEBUG: Finished Request
+2022-04-19 17:07:24 DEBUG: POST http://localhost:8273/session/9b31917aa02104fea4e22b54e5e76dfa/element {"using": "xpath", "value": "//*[@id=\"wqe\"]"}
+2022-04-19 17:07:24 DEBUG: POST http://localhost:8273/session/9b31917aa02104fea4e22b54e5e76dfa/element {"using": "xpath", "value": "//*[@id=\"wqe\"]"}
+2022-04-19 17:07:24 DEBUG: POST http://localhost:8273/session/9b31917aa02104fea4e22b54e5e76dfa/element {"using": "xpath", "value": "//*[@id=\"wqe\"]"}
+2022-04-19 17:07:24 DEBUG: POST http://localhost:8273/session/9b31917aa02104fea4e22b54e5e76dfa/element {"using": "xpath", "value": "//*[@id=\"wqe\"]"}
+2022-04-19 17:07:24 DEBUG: http://localhost:8273 "POST /session/9b31917aa02104fea4e22b54e5e76dfa/element HTTP/1.1" 404 1023
+2022-04-19 17:07:24 DEBUG: http://localhost:8273 "POST /session/9b31917aa02104fea4e22b54e5e76dfa/element HTTP/1.1" 404 1023
+2022-04-19 17:07:24 DEBUG: http://localhost:8273 "POST /session/9b31917aa02104fea4e22b54e5e76dfa/element HTTP/1.1" 404 1023
+2022-04-19 17:07:24 DEBUG: http://localhost:8273 "POST /session/9b31917aa02104fea4e22b54e5e76dfa/element HTTP/1.1" 404 1023
+2022-04-19 17:07:24 DEBUG: Finished Request
+2022-04-19 17:07:24 DEBUG: Finished Request
+2022-04-19 17:07:24 DEBUG: Finished Request
+2022-04-19 17:07:24 DEBUG: Finished Request
+2022-04-19 17:07:25 DEBUG: POST http://localhost:8273/session/9b31917aa02104fea4e22b54e5e76dfa/element {"using": "xpath", "value": "//*[@id=\"wqe\"]"}
+2022-04-19 17:07:25 DEBUG: POST http://localhost:8273/session/9b31917aa02104fea4e22b54e5e76dfa/element {"using": "xpath", "value": "//*[@id=\"wqe\"]"}
+2022-04-19 17:07:25 DEBUG: POST http://localhost:8273/session/9b31917aa02104fea4e22b54e5e76dfa/element {"using": "xpath", "value": "//*[@id=\"wqe\"]"}
+2022-04-19 17:07:25 DEBUG: POST http://localhost:8273/session/9b31917aa02104fea4e22b54e5e76dfa/element {"using": "xpath", "value": "//*[@id=\"wqe\"]"}
+2022-04-19 17:07:25 DEBUG: http://localhost:8273 "POST /session/9b31917aa02104fea4e22b54e5e76dfa/element HTTP/1.1" 404 1023
+2022-04-19 17:07:25 DEBUG: http://localhost:8273 "POST /session/9b31917aa02104fea4e22b54e5e76dfa/element HTTP/1.1" 404 1023
+2022-04-19 17:07:25 DEBUG: http://localhost:8273 "POST /session/9b31917aa02104fea4e22b54e5e76dfa/element HTTP/1.1" 404 1023
+2022-04-19 17:07:25 DEBUG: http://localhost:8273 "POST /session/9b31917aa02104fea4e22b54e5e76dfa/element HTTP/1.1" 404 1023
+2022-04-19 17:07:25 DEBUG: Finished Request
+2022-04-19 17:07:25 DEBUG: Finished Request
+2022-04-19 17:07:25 DEBUG: Finished Request
+2022-04-19 17:07:25 DEBUG: Finished Request
+2022-04-19 17:07:25 DEBUG: POST http://localhost:8273/session/9b31917aa02104fea4e22b54e5e76dfa/element {"using": "xpath", "value": "//*[@id=\"wqe\"]"}
+2022-04-19 17:07:25 DEBUG: POST http://localhost:8273/session/9b31917aa02104fea4e22b54e5e76dfa/element {"using": "xpath", "value": "//*[@id=\"wqe\"]"}
+2022-04-19 17:07:25 DEBUG: POST http://localhost:8273/session/9b31917aa02104fea4e22b54e5e76dfa/element {"using": "xpath", "value": "//*[@id=\"wqe\"]"}
+2022-04-19 17:07:25 DEBUG: POST http://localhost:8273/session/9b31917aa02104fea4e22b54e5e76dfa/element {"using": "xpath", "value": "//*[@id=\"wqe\"]"}
+2022-04-19 17:07:25 DEBUG: http://localhost:8273 "POST /session/9b31917aa02104fea4e22b54e5e76dfa/element HTTP/1.1" 404 1023
+2022-04-19 17:07:25 DEBUG: http://localhost:8273 "POST /session/9b31917aa02104fea4e22b54e5e76dfa/element HTTP/1.1" 404 1023
+2022-04-19 17:07:25 DEBUG: http://localhost:8273 "POST /session/9b31917aa02104fea4e22b54e5e76dfa/element HTTP/1.1" 404 1023
+2022-04-19 17:07:25 DEBUG: http://localhost:8273 "POST /session/9b31917aa02104fea4e22b54e5e76dfa/element HTTP/1.1" 404 1023
+2022-04-19 17:07:25 DEBUG: Finished Request
+2022-04-19 17:07:25 DEBUG: Finished Request
+2022-04-19 17:07:25 DEBUG: Finished Request
+2022-04-19 17:07:25 DEBUG: Finished Request
+2022-04-19 17:07:26 DEBUG: POST http://localhost:8273/session/9b31917aa02104fea4e22b54e5e76dfa/element {"using": "xpath", "value": "//*[@id=\"wqe\"]"}
+2022-04-19 17:07:26 DEBUG: POST http://localhost:8273/session/9b31917aa02104fea4e22b54e5e76dfa/element {"using": "xpath", "value": "//*[@id=\"wqe\"]"}
+2022-04-19 17:07:26 DEBUG: POST http://localhost:8273/session/9b31917aa02104fea4e22b54e5e76dfa/element {"using": "xpath", "value": "//*[@id=\"wqe\"]"}
+2022-04-19 17:07:26 DEBUG: POST http://localhost:8273/session/9b31917aa02104fea4e22b54e5e76dfa/element {"using": "xpath", "value": "//*[@id=\"wqe\"]"}
+2022-04-19 17:07:26 DEBUG: http://localhost:8273 "POST /session/9b31917aa02104fea4e22b54e5e76dfa/element HTTP/1.1" 404 1023
+2022-04-19 17:07:26 DEBUG: http://localhost:8273 "POST /session/9b31917aa02104fea4e22b54e5e76dfa/element HTTP/1.1" 404 1023
+2022-04-19 17:07:26 DEBUG: http://localhost:8273 "POST /session/9b31917aa02104fea4e22b54e5e76dfa/element HTTP/1.1" 404 1023
+2022-04-19 17:07:26 DEBUG: http://localhost:8273 "POST /session/9b31917aa02104fea4e22b54e5e76dfa/element HTTP/1.1" 404 1023
+2022-04-19 17:07:26 DEBUG: Finished Request
+2022-04-19 17:07:26 DEBUG: Finished Request
+2022-04-19 17:07:26 DEBUG: Finished Request
+2022-04-19 17:07:26 DEBUG: Finished Request
+2022-04-19 17:07:27 DEBUG: POST http://localhost:8273/session/9b31917aa02104fea4e22b54e5e76dfa/element {"using": "xpath", "value": "//*[@id=\"wqe\"]"}
+2022-04-19 17:07:27 DEBUG: POST http://localhost:8273/session/9b31917aa02104fea4e22b54e5e76dfa/element {"using": "xpath", "value": "//*[@id=\"wqe\"]"}
+2022-04-19 17:07:27 DEBUG: POST http://localhost:8273/session/9b31917aa02104fea4e22b54e5e76dfa/element {"using": "xpath", "value": "//*[@id=\"wqe\"]"}
+2022-04-19 17:07:27 DEBUG: POST http://localhost:8273/session/9b31917aa02104fea4e22b54e5e76dfa/element {"using": "xpath", "value": "//*[@id=\"wqe\"]"}
+2022-04-19 17:07:27 DEBUG: http://localhost:8273 "POST /session/9b31917aa02104fea4e22b54e5e76dfa/element HTTP/1.1" 404 1023
+2022-04-19 17:07:27 DEBUG: http://localhost:8273 "POST /session/9b31917aa02104fea4e22b54e5e76dfa/element HTTP/1.1" 404 1023
+2022-04-19 17:07:27 DEBUG: http://localhost:8273 "POST /session/9b31917aa02104fea4e22b54e5e76dfa/element HTTP/1.1" 404 1023
+2022-04-19 17:07:27 DEBUG: http://localhost:8273 "POST /session/9b31917aa02104fea4e22b54e5e76dfa/element HTTP/1.1" 404 1023
+2022-04-19 17:07:27 DEBUG: Finished Request
+2022-04-19 17:07:27 DEBUG: Finished Request
+2022-04-19 17:07:27 DEBUG: Finished Request
+2022-04-19 17:07:27 DEBUG: Finished Request
+2022-04-19 17:07:27 DEBUG: POST http://localhost:8273/session/9b31917aa02104fea4e22b54e5e76dfa/element {"using": "xpath", "value": "//*[@id=\"wqe\"]"}
+2022-04-19 17:07:27 DEBUG: POST http://localhost:8273/session/9b31917aa02104fea4e22b54e5e76dfa/element {"using": "xpath", "value": "//*[@id=\"wqe\"]"}
+2022-04-19 17:07:27 DEBUG: POST http://localhost:8273/session/9b31917aa02104fea4e22b54e5e76dfa/element {"using": "xpath", "value": "//*[@id=\"wqe\"]"}
+2022-04-19 17:07:27 DEBUG: POST http://localhost:8273/session/9b31917aa02104fea4e22b54e5e76dfa/element {"using": "xpath", "value": "//*[@id=\"wqe\"]"}
+2022-04-19 17:07:27 DEBUG: http://localhost:8273 "POST /session/9b31917aa02104fea4e22b54e5e76dfa/element HTTP/1.1" 404 1023
+2022-04-19 17:07:27 DEBUG: http://localhost:8273 "POST /session/9b31917aa02104fea4e22b54e5e76dfa/element HTTP/1.1" 404 1023
+2022-04-19 17:07:27 DEBUG: http://localhost:8273 "POST /session/9b31917aa02104fea4e22b54e5e76dfa/element HTTP/1.1" 404 1023
+2022-04-19 17:07:27 DEBUG: http://localhost:8273 "POST /session/9b31917aa02104fea4e22b54e5e76dfa/element HTTP/1.1" 404 1023
+2022-04-19 17:07:28 DEBUG: Finished Request
+2022-04-19 17:07:28 DEBUG: Finished Request
+2022-04-19 17:07:28 DEBUG: Finished Request
+2022-04-19 17:07:28 DEBUG: Finished Request
+2022-04-19 17:07:28 DEBUG: POST http://localhost:8273/session/9b31917aa02104fea4e22b54e5e76dfa/element {"using": "xpath", "value": "//*[@id=\"wqe\"]"}
+2022-04-19 17:07:28 DEBUG: POST http://localhost:8273/session/9b31917aa02104fea4e22b54e5e76dfa/element {"using": "xpath", "value": "//*[@id=\"wqe\"]"}
+2022-04-19 17:07:28 DEBUG: POST http://localhost:8273/session/9b31917aa02104fea4e22b54e5e76dfa/element {"using": "xpath", "value": "//*[@id=\"wqe\"]"}
+2022-04-19 17:07:28 DEBUG: POST http://localhost:8273/session/9b31917aa02104fea4e22b54e5e76dfa/element {"using": "xpath", "value": "//*[@id=\"wqe\"]"}
+2022-04-19 17:07:28 DEBUG: http://localhost:8273 "POST /session/9b31917aa02104fea4e22b54e5e76dfa/element HTTP/1.1" 404 1023
+2022-04-19 17:07:28 DEBUG: http://localhost:8273 "POST /session/9b31917aa02104fea4e22b54e5e76dfa/element HTTP/1.1" 404 1023
+2022-04-19 17:07:28 DEBUG: http://localhost:8273 "POST /session/9b31917aa02104fea4e22b54e5e76dfa/element HTTP/1.1" 404 1023
+2022-04-19 17:07:28 DEBUG: http://localhost:8273 "POST /session/9b31917aa02104fea4e22b54e5e76dfa/element HTTP/1.1" 404 1023
+2022-04-19 17:07:28 DEBUG: Finished Request
+2022-04-19 17:07:28 DEBUG: Finished Request
+2022-04-19 17:07:28 DEBUG: Finished Request
+2022-04-19 17:07:28 DEBUG: Finished Request
+2022-04-19 17:07:29 ERROR: 执行步骤：输入 失败
+2022-04-19 17:07:29 ERROR: 执行步骤：输入 失败
+2022-04-19 17:07:29 ERROR: 执行步骤：输入 失败
+2022-04-19 17:07:29 ERROR: 执行步骤：输入 失败
+2022-04-19 17:07:29 ERROR: Message: 
+Stacktrace:
+Backtrace:
+	Ordinal0 [0x00347413+2389011]
+	Ordinal0 [0x002D9F61+1941345]
+	Ordinal0 [0x001CC658+837208]
+	Ordinal0 [0x001F91DD+1020381]
+	Ordinal0 [0x001F949B+1021083]
+	Ordinal0 [0x00226032+1204274]
+	Ordinal0 [0x00214194+1130900]
+	Ordinal0 [0x00224302+1196802]
+	Ordinal0 [0x00213F66+1130342]
+	Ordinal0 [0x001EE546+976198]
+	Ordinal0 [0x001EF456+980054]
+	GetHandleVerifier [0x004F9632+1727522]
+	GetHandleVerifier [0x005ABA4D+2457661]
+	GetHandleVerifier [0x003DEB81+569713]
+	GetHandleVerifier [0x003DDD76+566118]
+	Ordinal0 [0x002E0B2B+1968939]
+	Ordinal0 [0x002E5988+1989000]
+	Ordinal0 [0x002E5A75+1989237]
+	Ordinal0 [0x002EECB1+2026673]
+	BaseThreadInitThunk [0x76D1FA29+25]
+	RtlGetAppContainerNamedObjectPath [0x77377A7E+286]
+	RtlGetAppContainerNamedObjectPath [0x77377A4E+238]
+
+2022-04-19 17:07:29 ERROR: Message: 
+Stacktrace:
+Backtrace:
+	Ordinal0 [0x00347413+2389011]
+	Ordinal0 [0x002D9F61+1941345]
+	Ordinal0 [0x001CC658+837208]
+	Ordinal0 [0x001F91DD+1020381]
+	Ordinal0 [0x001F949B+1021083]
+	Ordinal0 [0x00226032+1204274]
+	Ordinal0 [0x00214194+1130900]
+	Ordinal0 [0x00224302+1196802]
+	Ordinal0 [0x00213F66+1130342]
+	Ordinal0 [0x001EE546+976198]
+	Ordinal0 [0x001EF456+980054]
+	GetHandleVerifier [0x004F9632+1727522]
+	GetHandleVerifier [0x005ABA4D+2457661]
+	GetHandleVerifier [0x003DEB81+569713]
+	GetHandleVerifier [0x003DDD76+566118]
+	Ordinal0 [0x002E0B2B+1968939]
+	Ordinal0 [0x002E5988+1989000]
+	Ordinal0 [0x002E5A75+1989237]
+	Ordinal0 [0x002EECB1+2026673]
+	BaseThreadInitThunk [0x76D1FA29+25]
+	RtlGetAppContainerNamedObjectPath [0x77377A7E+286]
+	RtlGetAppContainerNamedObjectPath [0x77377A4E+238]
+
+2022-04-19 17:07:29 ERROR: Message: 
+Stacktrace:
+Backtrace:
+	Ordinal0 [0x00347413+2389011]
+	Ordinal0 [0x002D9F61+1941345]
+	Ordinal0 [0x001CC658+837208]
+	Ordinal0 [0x001F91DD+1020381]
+	Ordinal0 [0x001F949B+1021083]
+	Ordinal0 [0x00226032+1204274]
+	Ordinal0 [0x00214194+1130900]
+	Ordinal0 [0x00224302+1196802]
+	Ordinal0 [0x00213F66+1130342]
+	Ordinal0 [0x001EE546+976198]
+	Ordinal0 [0x001EF456+980054]
+	GetHandleVerifier [0x004F9632+1727522]
+	GetHandleVerifier [0x005ABA4D+2457661]
+	GetHandleVerifier [0x003DEB81+569713]
+	GetHandleVerifier [0x003DDD76+566118]
+	Ordinal0 [0x002E0B2B+1968939]
+	Ordinal0 [0x002E5988+1989000]
+	Ordinal0 [0x002E5A75+1989237]
+	Ordinal0 [0x002EECB1+2026673]
+	BaseThreadInitThunk [0x76D1FA29+25]
+	RtlGetAppContainerNamedObjectPath [0x77377A7E+286]
+	RtlGetAppContainerNamedObjectPath [0x77377A4E+238]
+
+2022-04-19 17:07:29 ERROR: Message: 
+Stacktrace:
+Backtrace:
+	Ordinal0 [0x00347413+2389011]
+	Ordinal0 [0x002D9F61+1941345]
+	Ordinal0 [0x001CC658+837208]
+	Ordinal0 [0x001F91DD+1020381]
+	Ordinal0 [0x001F949B+1021083]
+	Ordinal0 [0x00226032+1204274]
+	Ordinal0 [0x00214194+1130900]
+	Ordinal0 [0x00224302+1196802]
+	Ordinal0 [0x00213F66+1130342]
+	Ordinal0 [0x001EE546+976198]
+	Ordinal0 [0x001EF456+980054]
+	GetHandleVerifier [0x004F9632+1727522]
+	GetHandleVerifier [0x005ABA4D+2457661]
+	GetHandleVerifier [0x003DEB81+569713]
+	GetHandleVerifier [0x003DDD76+566118]
+	Ordinal0 [0x002E0B2B+1968939]
+	Ordinal0 [0x002E5988+1989000]
+	Ordinal0 [0x002E5A75+1989237]
+	Ordinal0 [0x002EECB1+2026673]
+	BaseThreadInitThunk [0x76D1FA29+25]
+	RtlGetAppContainerNamedObjectPath [0x77377A7E+286]
+	RtlGetAppContainerNamedObjectPath [0x77377A4E+238]
+
+2022-04-19 17:07:29 DEBUG: DELETE http://localhost:8273/session/9b31917aa02104fea4e22b54e5e76dfa {}
+2022-04-19 17:07:29 DEBUG: DELETE http://localhost:8273/session/9b31917aa02104fea4e22b54e5e76dfa {}
+2022-04-19 17:07:29 DEBUG: DELETE http://localhost:8273/session/9b31917aa02104fea4e22b54e5e76dfa {}
+2022-04-19 17:07:29 DEBUG: DELETE http://localhost:8273/session/9b31917aa02104fea4e22b54e5e76dfa {}
+2022-04-19 17:07:35 DEBUG: http://localhost:8273 "DELETE /session/9b31917aa02104fea4e22b54e5e76dfa HTTP/1.1" 200 14
+2022-04-19 17:07:35 DEBUG: http://localhost:8273 "DELETE /session/9b31917aa02104fea4e22b54e5e76dfa HTTP/1.1" 200 14
+2022-04-19 17:07:35 DEBUG: http://localhost:8273 "DELETE /session/9b31917aa02104fea4e22b54e5e76dfa HTTP/1.1" 200 14
+2022-04-19 17:07:35 DEBUG: http://localhost:8273 "DELETE /session/9b31917aa02104fea4e22b54e5e76dfa HTTP/1.1" 200 14
+2022-04-19 17:07:35 DEBUG: Finished Request
+2022-04-19 17:07:35 DEBUG: Finished Request
+2022-04-19 17:07:35 DEBUG: Finished Request
+2022-04-19 17:07:35 DEBUG: Finished Request

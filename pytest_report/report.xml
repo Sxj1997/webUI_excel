@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?><testsuites><testsuite name="pytest" errors="0" failures="1" skipped="0" tests="2" time="73.220" timestamp="2022-04-19T17:06:28.486751" hostname="DESKTOP-CPR111J"><testcase classname="test_dir.test_data.TestData" name="test_case[\u67e5\u8be21]" time="9.444" /><testcase classname="test_dir.test_data.TestData" name="test_case[\u67e5\u8be22]" time="51.906"><failure message="selenium.common.exceptions.TimeoutException: Message: &#10;Stacktrace:&#10;Backtrace:&#10;&#09;Ordinal0 [0x00347413+2389011]&#10;&#09;Ordinal0 [0x002D9F61+1941345]&#10;&#09;Ordinal0 [0x001CC658+837208]&#10;&#09;Ordinal0 [0x001F91DD+1020381]&#10;&#09;Ordinal0 [0x001F949B+1021083]&#10;&#09;Ordinal0 [0x00226032+1204274]&#10;&#09;Ordinal0 [0x00214194+1130900]&#10;&#09;Ordinal0 [0x00224302+1196802]&#10;&#09;Ordinal0 [0x00213F66+1130342]&#10;&#09;Ordinal0 [0x001EE546+976198]&#10;&#09;Ordinal0 [0x001EF456+980054]&#10;&#09;GetHandleVerifier [0x004F9632+1727522]&#10;&#09;GetHandleVerifier [0x005ABA4D+2457661]&#10;&#09;GetHandleVerifier [0x003DEB81+569713]&#10;&#09;GetHandleVerifier [0x003DDD76+566118]&#10;&#09;Ordinal0 [0x002E0B2B+1968939]&#10;&#09;Ordinal0 [0x002E5988+1989000]&#10;&#09;Ordinal0 [0x002E5A75+1989237]&#10;&#09;Ordinal0 [0x002EECB1+2026673]&#10;&#09;BaseThreadInitThunk [0x76D1FA29+25]&#10;&#09;RtlGetAppContainerNamedObjectPath [0x77377A7E+286]&#10;&#09;RtlGetAppContainerNamedObjectPath [0x77377A4E+238]">self = &lt;test_dir.test_data.TestData object at 0x0000017FB4CADB80&gt;, case_name = '查询2'
+
+    @allure.title("百度测试")
+    @pytest.mark.parametrize('case_name', get_sheet_column_value(openpyxl.load_workbook(excel_file),
+                                                                 yaml_read(config_file)))
+    def test_case(self, case_name):
+&gt;       self.cr.case_runner(case_name)
+
+test_dir\test_data.py:35: 
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ 
+base\case_runner.py:28: in case_runner
+    getattr(self.b, data_dict['kw'])(data_dict)  # 执行代码
+base\base_tools.py:36: in input
+    self.locate(data_dict).send_keys(data_dict['txt'])
+base\base_tools.py:27: in locate
+    ele = WebDriverWait(self.driver, 6, 0.5).until(lambda s: s.find_element(data_dict['locate_by'],
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ 
+
+self = &lt;selenium.webdriver.support.wait.WebDriverWait (session="9b31917aa02104fea4e22b54e5e76dfa")&gt;
+method = &lt;function Base.locate.&lt;locals&gt;.&lt;lambda&gt; at 0x0000017FB4E6FAF0&gt;, message = ''
+
+    def until(self, method, message=''):
+        """Calls the method provided with the driver as an argument until the \
+        return value does not evaluate to ``False``.
+    
+        :param method: callable(WebDriver)
+        :param message: optional message for :exc:`TimeoutException`
+        :returns: the result of the last call to `method`
+        :raises: :exc:`selenium.common.exceptions.TimeoutException` if timeout occurs
+        """
+        screen = None
+        stacktrace = None
+    
+        end_time = time.time() + self._timeout
+        while True:
+            try:
+                value = method(self._driver)
+                if value:
+                    return value
+            except InvalidSelectorException as e:
+                raise e
+            except self._ignored_exceptions as exc:
+                screen = getattr(exc, 'screen', None)
+                stacktrace = getattr(exc, 'stacktrace', None)
+            time.sleep(self._poll)
+            if time.time() &gt; end_time:
+                break
+&gt;       raise TimeoutException(message, screen, stacktrace)
+E       selenium.common.exceptions.TimeoutException: Message: 
+E       Stacktrace:
+E       Backtrace:
+E       	Ordinal0 [0x00347413+2389011]
+E       	Ordinal0 [0x002D9F61+1941345]
+E       	Ordinal0 [0x001CC658+837208]
+E       	Ordinal0 [0x001F91DD+1020381]
+E       	Ordinal0 [0x001F949B+1021083]
+E       	Ordinal0 [0x00226032+1204274]
+E       	Ordinal0 [0x00214194+1130900]
+E       	Ordinal0 [0x00224302+1196802]
+E       	Ordinal0 [0x00213F66+1130342]
+E       	Ordinal0 [0x001EE546+976198]
+E       	Ordinal0 [0x001EF456+980054]
+E       	GetHandleVerifier [0x004F9632+1727522]
+E       	GetHandleVerifier [0x005ABA4D+2457661]
+E       	GetHandleVerifier [0x003DEB81+569713]
+E       	GetHandleVerifier [0x003DDD76+566118]
+E       	Ordinal0 [0x002E0B2B+1968939]
+E       	Ordinal0 [0x002E5988+1989000]
+E       	Ordinal0 [0x002E5A75+1989237]
+E       	Ordinal0 [0x002EECB1+2026673]
+E       	BaseThreadInitThunk [0x76D1FA29+25]
+E       	RtlGetAppContainerNamedObjectPath [0x77377A7E+286]
+E       	RtlGetAppContainerNamedObjectPath [0x77377A4E+238]
+
+D:\Users\eyecool_sd\AppData\Local\Programs\Python\Python38\lib\site-packages\selenium\webdriver\support\wait.py:89: TimeoutException</failure></testcase></testsuite></testsuites>
