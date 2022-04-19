@@ -1,3 +1,4 @@
+# 实际项目选择使用pytest.ini或main.py
 import pytest
 
 
