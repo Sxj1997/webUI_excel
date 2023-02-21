@@ -4,7 +4,9 @@ from base.chrome_options import chrome_options
 from selenium.webdriver.support.wait import WebDriverWait
 from base.yaml_tools import yaml_read
 
-
+"""
+20230221
+"""
 class Base:
     def __init__(self, config_file_path):
         self.config_dict = yaml_read(config_file_path)
